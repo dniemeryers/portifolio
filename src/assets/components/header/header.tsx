@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Container, Container2, Social } from './style';
 import { motion } from 'framer-motion'
 
+
 import { SocialIcon } from "react-social-icons"
 import Foto from '../../img/perfil-diego.png'
 
@@ -52,7 +53,7 @@ export function Header() {
           <NavLink className={'navlink'} to="/projetos">Projetos</NavLink>
           <NavLink className={'navlink'} to="/experiencia">Experiências</NavLink>
           <NavLink className={'navlink'} to="/certificado">Contato</NavLink>
-          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link"><input type="submit" className="button" value="Curriculo" /></NavLink>
+          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link"><input type="submit" className="button" value="Curriculo"/></NavLink>
         </div>
       </div>
     </Container>

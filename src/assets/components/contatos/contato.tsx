@@ -3,7 +3,7 @@ import InputMask from "react-input-mask";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { AiFillYoutube, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
+import { AiFillYoutube, AiOutlineMail, AiOutlinePhone } from "react-icons/Ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { ContactForm, ContactInfo } from "./style";
@@ -109,7 +109,8 @@ function Contact() {
         </ContactInfo>
         <ContactForm>
           <div className="contact-title">
-            <h1>Entre em contato</h1>            
+            <h1>Entre em contato</h1>
+            
           </div>
 
           <form

@@ -1,33 +1,92 @@
 import styled from "styled-components"; 
 
-export const Container = styled.div`
+export const Experiencia = styled.div`
+display:flex;
+margin:auto;
+flex-direction:column;
+color: #BFBFBF;
 
-margin-top:-1px;
-h2{
-    margin-top:-1px;
-    padding-top:20px;
-    background-color:black;
-    color: #BFBFBF;
-    text-align:center;
-}
-.experiencia{
-    margin:0;
-    background-color:black;
-}
-.emprego{
+margin:35px;
+.social{
+    padding-top:30px;
     display:flex;
-    justify-content:space-around;
-    
-    
+    margin:auto;
+    @media(min-width: 800px){
+        margin-left:20%;
+    }
 }
-.trabalho{
-    color: #BFBFBF;
+h1{
+    margin-top:70px;
+    color:white;
     text-align:center;
-    height:150px;
-    width:50%;
-    background-color:#1c1c1c;
-    border-radius:10px;
-    margin:10px;
-    box-shadow: 3px 3px 3px gray;
+}
+h2{
+    color:white;
+    text-align:center;
+    margin-bottom:-10px;
+    @media(min-width: 800px){
+        text-align:start;
+    }
+}
+h3{
+   
+    margin-bottom:-10px;
+}
+h4{
+    
+   
+    margin-bottom:-10px;
+}
+p{
+    
+    margin-bottom:-10px;
+   
+    padding-top:0;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    padding-top:20px;
+    background-color:rgba(179,179,179,0.4);  
+    border-radius: 50px 0 50px 0;
+
+    @media(min-width: 800px){
+        display:flex;
+        margin:auto;
+        padding:20px;
+        flex-direction:row;
+        width:80%;
+    }
+
+}
+.container1{
+    display:flex;
+    
+    flex-direction:column;
+    margin:auto;
+    
+   
+   
+}
+.container2{
+    display:flex;
+    margin:20px;
+    flex-direction:column;
+    
+   
+   
+   
+    
+   
+}
+
+img{
+    
+    margin:auto;
+    border-radius:12px;
+    @media(min-width: 800px){
+        width:250px;
+    }
+    
 }
 `

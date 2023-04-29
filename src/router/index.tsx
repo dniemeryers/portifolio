@@ -4,8 +4,8 @@ import {Home} from "../page/Home/Home";
 import {Sobre} from "../page/sobre/Sobre";
 import {Educacao} from "../page/educação/Educação";
 import {Projetos} from "../page/projetos/Projetos";
-import {Experiencia} from "../page/experiencia/Experiencia";
-import {Certificado} from "../page/certificados/Certificados";
+import {Experiencias} from "../page/experiencia/Experiencia";
+import {Certificado} from "../page/contato/contato";
 
 
 
@@ -20,6 +20,9 @@ const router = createBrowserRouter([
     path: "/sobre",
     element: <Sobre/>,
   },{
+    path: "/#sobre",
+    element: <Sobre/>,
+  },{
     path: "/educacao",
     element: <Educacao/>,
   },{
@@ -27,7 +30,7 @@ const router = createBrowserRouter([
     element: <Projetos/>,
   },{
     path: "/experiencia",
-    element: <Experiencia/>,
+    element: <Experiencias/>,
   },{
     path: "/certificado",
     element: <Certificado/>,

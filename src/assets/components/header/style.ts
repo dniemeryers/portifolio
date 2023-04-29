@@ -10,6 +10,7 @@ z-index:1;
 color:#BFBFBF;
 justify-content:space-betweem;
 width:100%;
+
 .button {
   
   width: 100px;

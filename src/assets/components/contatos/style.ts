@@ -6,7 +6,7 @@ import styled from "styled-components";
 export const ContactForm = styled.div`
   display: flex;
   margin:auto;
-  margin-top:-10px;
+  margin-top:40px;
   flex-direction: column;
   height: 70vh;
   width: 75%;

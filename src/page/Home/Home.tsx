@@ -70,12 +70,12 @@ export function Home() {
         ease: "linear",
       }}
     >
-      <img className="seta" src={Seta} alt="" />
+      <NavLink to="/#sobre"><img className="seta" src={Seta} alt="" /></NavLink>
     </motion.div>
     
         </Container>
         <H1>Sobre</H1>
-<Sobre>      
+<Sobre id="sobre">      
 <div className='sobre'>
 <div className='emprego'>
     <div className='info'>
@@ -126,7 +126,11 @@ export function Home() {
             <SocialIcon className='ic' url="https://www.youtube.com/@iecbrasil7560"
                 fgColor='#BFBFBF'
                 bgColor='transparent'
-                target={"_blank"}/>       
+                target={"_blank"}/>
+            <SocialIcon className='ic' url="https://www.iecbrasil.org.br"
+                fgColor='#BFBFBF'
+                bgColor='transparent'
+                target={"_blank"}/>          
         </div>
         </div>
     </div>
