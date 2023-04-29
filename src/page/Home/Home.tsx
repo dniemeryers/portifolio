@@ -4,10 +4,12 @@ import Foto from '../../assets/img/perfil-diego.png';
 import Anhanguera from '../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png';
 import Betel from '../../assets/img/logo_betel_2023novo.fw_.png';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import { motion } from "framer-motion";
 import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 import { Header } from '../../assets/components/header/header';
 import { NavLink } from 'react-router-dom';
 import Calc from '../../assets/img/projetos/calc.gif'
+import Seta from '../../assets/img/projetos/icone-fleche-droite-grise.png'
 
 
 export function Home() {
@@ -37,6 +39,7 @@ export function Home() {
                 bgColor='transparent'
                 target={"_blank"}/>    
         </Social>
+        
         <Container>    
             
            
@@ -48,13 +51,32 @@ export function Home() {
                    
                 </div>                        
             </div>
+     
+            <motion.div
+      style={{
+        position: "absolute",
+        left: "100%",
+        transform: "translateX(-50%)",
+        top: "-60px",
+      }}
+      animate={{
+        top: ["0px", "30px"],
+      }}
+      transition={{
+        duration: 0.7,
+        repeat: Infinity,
+        repeatType: "reverse",
+        ease: "linear",
+      }}
+    >
+      <img className="seta" src={Seta} alt="" />
+    </motion.div>
+    
         </Container>
         <H1>Sobre</H1>
 <Sobre>      
 <div className='sobre'>
-
 <div className='emprego'>
-
     <div className='info'>
        <img src={Foto} width='200px' alt="" />
        <h1>Diego Niemeyer</h1>
@@ -75,8 +97,7 @@ export function Home() {
 
 <Experiencia>
     <h1>Experiência</h1>   
-    <div className='container'>
-        
+    <div className='container'>        
         <div className='container1'>
             <img src="https://media.licdn.com/dms/image/C4D0BAQH94aQSIHZPNA/company-logo_200_200/0/1649874998369?e=1691020800&v=beta&t=dTTNIAmrAx_XhEC2wihhYkeQwA_5v-l9j_IQh4tON9s" alt="" />
         </div>
@@ -88,6 +109,24 @@ export function Home() {
             <p>- React + TypeScript</p>
             <p>- Responsividade</p>
             <p>Competências: Bitbucket · JIRA · TypeScript · Styled-components · react-router-dom · HTML · CSS · React.js · Scrum · JavaScript</p>
+            <div className='social' >
+            <SocialIcon className='ic' url="https://www.instagram.com/iecbrasil/"
+                fgColor='#BFBFBF'
+                bgColor='transparent'
+                target={"_blank"}/>
+            <SocialIcon className='ic' url="https://www.facebook.com/iecbrasil.org"
+                fgColor='#BFBFBF'
+                bgColor='transparent'
+                target={"_blank"}/>
+            <SocialIcon className='ic' url="https://www.linkedin.com/company/iecbrasil/"
+                fgColor='#BFBFBF'
+                bgColor='transparent'
+                target={"_blank"}/>
+            <SocialIcon className='ic' url="https://www.youtube.com/@iecbrasil7560"
+                fgColor='#BFBFBF'
+                bgColor='transparent'
+                target={"_blank"}/>       
+        </div>
         </div>
     </div>
     

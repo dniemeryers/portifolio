@@ -15,7 +15,7 @@ export const Social = styled.div`
     flex-direction: column;
     position:fixed;
     top:40%;
-    left:10px;
+    left:-10px;
     .social-icon{
         &:hover{
             color:#6d6d6d;
@@ -30,6 +30,15 @@ color: #BFBFBF;
 heigth:100%vh;
 margin-top:70px;
 
+.seta{
+    width:100px;
+    position:absolute;
+    top:730px;
+    right:0;
+    @media (min-width: 800px) {
+        top:500px;
+    }
+}
 h1{
     
     font-size:2.8em;
@@ -100,16 +109,21 @@ h3{
     
 }
 .sobre{
-    margin-top:30px;
-
+    display:flex;
+    margin-top:30px; 
+    margin:40px;   
+    margin:auto;
     @media (min-width: 800px) {
     margin-top:50px;
 
     }
 }
 .emprego{
-    
+        
     display:flex;
+    
+    margin:auto;
+   
     flex-direction:column;
     
     @media (min-width: 800px) {
@@ -132,12 +146,13 @@ h3{
     }
 }
     .texto{
+        
         color: white; 
         text-align:justify;
-        margin:10px;
+        margin:20px;
         background-color:rgba(179,179,179,0.4);       
         border-radius:10px;
-        margin:auto;
+        
         
         @media (min-width: 800px) {
             width:50%;
@@ -366,43 +381,57 @@ export const Experiencia = styled.div`
 display:flex;
 margin:auto;
 flex-direction:column;
+color: #BFBFBF;
+
+margin:35px;
+.social{
+    padding-top:30px;
+    display:flex;
+    margin:auto;
+}
 h1{
     color:white;
     text-align:center;
 }
 h2{
     color:white;
-  
+    text-align:center;
     margin-bottom:-10px;
 }
 h3{
-    color:white;
-    
+   
     margin-bottom:-10px;
 }
 h4{
-    color:white;
+    
    
     margin-bottom:-10px;
 }
 p{
-    color:white;
+    
     margin-bottom:-10px;
    
     padding-top:0;
 }
 .container{
     display:flex;
-    margin:auto;
+    flex-direction:column;
+    padding-top:20px;
+    background-color:rgba(179,179,179,0.4);  
+    border-radius: 50px 0 50px 0;
 }
 .container1{
-   
+    display:flex;
+    flex-direction:column;
+    margin:auto;
    
    
 }
 .container2{
     display:flex;
+    margin:20px;
     flex-direction:column;
+    
    
    
    
