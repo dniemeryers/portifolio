@@ -1,6 +1,4 @@
 import { useState } from "react";
-import React from "react";
-import Swal from "sweetalert2";
 import InputMask from "react-input-mask";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -8,10 +6,8 @@ import * as yup from "yup";
 import { AiFillYoutube, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { ContactForm, ContactInfo } from "../components/Contact/Contact";
+import { ContactForm, ContactInfo } from "./style";
 import emailjs from "@emailjs/browser";
-import Footer from "../components/Footer";
-import { Header } from "../components/Header";
 import { Link } from "react-router-dom";
 
 function Contact() {
@@ -75,29 +71,28 @@ function Contact() {
 
   return (
     <>
-      
+       
       <div className="contact-container">
+     
         <ContactInfo>
           <div className="contact-info-container">
             <div className="info-contact-control">
               <div className="title-icon">
                 <AiOutlineMail />
-                <h4>Converse com a gente</h4>
+                <h4>E-mail</h4>
               </div>
               <div>
-                <p>email@email.com</p>
+                <p>dniemeyers@gmail.com</p>
               </div>
             </div>
             <div className="info-contact-control">
               <div className="title-icon">
                 <IoLocationOutline />
-                <h4>Onde estamos</h4>
+                <h4>Endereço</h4>
               </div>
               <div>
                 <p>
-                  Rua Lorem ipsum, 00 <br />
-                  Cidade/Estado <br />
-                  CEP 00000-000{" "}
+                  Nova Iguaçu - RJ
                 </p>
               </div>
             </div>
@@ -107,32 +102,14 @@ function Contact() {
                 <h4>Telefone</h4>
               </div>
               <div>
-                <p>(00)00000-0000</p>
-              </div>
-              <div className="social-media">
-                <Link to={"https://www.instagram.com/iecbrasil/"}>
-                  <FaInstagram />
-                </Link>
-                <Link to={"https://www.facebook.com/iecbrasil.org"}>
-                  <FaFacebookF />
-                </Link>
-                <Link to={"https://www.linkedin.com/company/iecbrasil/"}>
-                  <FaLinkedinIn />
-                </Link>
-                <Link to={"https://www.youtube.com/@iecbrasil7560"}>
-                  <AiFillYoutube />
-                </Link>
-              </div>
+                <p>(21)97411-2744</p>
+              </div>              
             </div>
           </div>
         </ContactInfo>
         <ContactForm>
           <div className="contact-title">
-            <h1>Entre em contato</h1>
-            <p>
-              Entre em contato com o IEC. Nossa equipe retornará o mais rápido
-              possível.
-            </p>
+            <h1>Entre em contato</h1>            
           </div>
 
           <form
@@ -202,17 +179,7 @@ function Contact() {
             
             <input type="submit" className="button" value="Enviar" />
 
-            <div>
-              <input
-                className="checkbox"
-                type="checkbox"
-                id="noticias"
-                name="noticias"
-              />
-              <label htmlFor="noticias">
-                Concordo em receber notícias do IEC.
-              </label>
-            </div>          
+            
 
           </form>
         </ContactForm>

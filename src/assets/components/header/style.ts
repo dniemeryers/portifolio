@@ -10,7 +10,25 @@ z-index:1;
 color:#BFBFBF;
 justify-content:space-betweem;
 width:100%;
-
+.button {
+  
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  padding:0;
+  margin-top:-5px;;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  background-color: gray;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px 3px white;;
+  transition: background-color, transform 0.8s;
+  &:hover {
+    scale:1.2;
+    transform: scale(1.01);
+  }
+}
 h1{
   margin:15px;
   font-size:1.5rem;
@@ -153,7 +171,7 @@ a{
 }
 
 .nav{
-  height:78%;
+  height:88%;
   width:95%;
   position:fixed;
   right:0px;

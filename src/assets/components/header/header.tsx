@@ -23,7 +23,7 @@ export function Header() {
       <div className="icons">
       <motion.div
              initial={{
-                x: -500,
+                x: 1500,
                 opacity: 0,
                 scale: 0.5,
              }}
@@ -33,7 +33,7 @@ export function Header() {
                 scale: 1,
              }}
              transition={{
-                duration: 1.5,
+                duration: 2.5,
              }}>
         <h1>Diego Niemeyer</h1>
         </motion.div>
@@ -52,6 +52,7 @@ export function Header() {
           <NavLink className={'navlink'} to="/projetos">Projetos</NavLink>
           <NavLink className={'navlink'} to="/experiencia">Experiências</NavLink>
           <NavLink className={'navlink'} to="/certificado">Contato</NavLink>
+          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link"><input type="submit" className="button" value="Curriculo" /></NavLink>
         </div>
       </div>
     </Container>
@@ -68,6 +69,7 @@ export function Header() {
               <NavLink to="/projetos">Projetos</NavLink>
               <NavLink to="/experiencia">Experiências</NavLink>
               <NavLink to="/certificado">Contato</NavLink>
+              <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link">Curriculo</NavLink>
             <Social>
             <SocialIcon className='ic' url="https://www.linkedin.com/in/diego-niemeyer/"
                 fgColor='#BFBFBF'

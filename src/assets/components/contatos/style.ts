@@ -1,19 +1,24 @@
-import BackgroundSide from "../../assets/side-bg-contact.png";
+
 import styled from "styled-components";
+
+
 
 export const ContactForm = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin:auto;
+  margin-top:-10px;
   flex-direction: column;
-  height: 100vh;
-  width: 90%;
-  color: #fff;
-  padding: 14px;
-  color: #000;
+  height: 70vh;
+  width: 75%;
+  color: #bfbfbf;
+  padding:10px;
+  
+  
+  
+ 
 
   .contact-title {
-    width: 600px;
+    
     h1 {
       margin-bottom: 25px;
     }
@@ -66,7 +71,7 @@ export const ContactForm = styled.div`
     height: 68px;
     resize: none;
     margin-top: 20px;
-    background-color: transparent;
+    background-color: #fff8f0;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -86,11 +91,12 @@ export const ContactForm = styled.div`
     border: 0;
     color: #fff;
     cursor: pointer;
-    background-color: #1ca3dd;
+    background-color: gray;
     font-size: 16px;
+    box-shadow: 0px 0px 5px 3px white;;
     transition: background-color, transform 0.8s;
     &:hover {
-      background-color: #3333ff;
+      scale:1.2;
       transform: scale(1.01);
     }
     
@@ -205,21 +211,24 @@ export const ContactForm = styled.div`
       left: 82%;
     }
   }
-`;
+`
 
 export const ContactInfo = styled.div`
   display: flex;
+  
   justify-content: center;
-  background-image: url(${BackgroundSide});
+  margin-top:-70px;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 680px;
+  height: 650px;
   width: 470px;
 
   @media screen and (max-width: 800px) {
     width:100%;
+    height: 350px;
     border:0;
     padding:0;
+    
   }
 
   .title-icon {
@@ -232,10 +241,15 @@ export const ContactInfo = styled.div`
     align-items: center;
     color: white;
     h4 {
+      
+      font-size:22px;
+      margin:0;
       margin-left: 16px;
       margin-bottom: 8px;
     }
     p {
+      font-size:20px;
+      margin-top:-2px;
       margin-left: 32px;
       margin-bottom: 25px;
       color: #bebebe;
@@ -253,4 +267,4 @@ export const ContactInfo = styled.div`
   .social-media :only-child {
     cursor: pointer;
   }
-`;
+`
