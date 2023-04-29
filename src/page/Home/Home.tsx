@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 import { Header } from '../../assets/components/header/header';
 import { NavLink } from 'react-router-dom';
+import Contact from '../../assets/components/contatos/contato'
 import Calc from '../../assets/img/projetos/calc.gif'
 import Seta from '../../assets/img/projetos/icone-fleche-droite-grise.png'
 
@@ -196,6 +197,7 @@ export function Home() {
                     </div>  
 
 </Projetos>
+<Contact/>
 
          
 
