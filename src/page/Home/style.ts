@@ -88,7 +88,7 @@ export const Sobre = styled.div`
 heigth:100%;
 margin:20px;
 margin-top:10px;
-border-radius:20px;
+border-radius:20px 0 20px 0 ;
 
 padding-bottom:50px;
 
@@ -151,7 +151,7 @@ h3{
         text-align:justify;
         margin:20px;
         background-color:rgba(179,179,179,0.4);       
-        border-radius:10px;
+        border-radius:30px 0 30px 0 ;
         
         
         @media (min-width: 800px) {
@@ -215,7 +215,7 @@ flex-direction:column;
     height:100px;   
     width:250px;
     background-color:rgba(179,179,179,0.4);
-    border-radius:10px;
+    border-radius: 25px 0 25px 0;
     margin:5px;    
 }
 .cont{
@@ -281,15 +281,16 @@ p{
 }
 .curso{
    width:90%;
-   padding-top:30px;
+   padding-top:10px;
     display:flex;
-    margin:auto;
+    margin:35px;
     overflow-x: scroll;
     
     @media(min-width: 800px){
+        padding-top:15px;
         flex-direction:row;
         width:100%;
-        margin:20px;
+        margin:40px;
     }
 
 }
@@ -305,11 +306,11 @@ p{
         display:flex;
         flex-direction:column;
         margin:auto;       
-        padding:8px;
-        width:225px;
+        padding:5px;
+        width:125px;
         box-shadow:0px 0px 6px 2px black;
         border-radius:8px;
-        opacity:0.5;
+        
         @media(max-width:800px){
         &:hover{
             opacity:1;
@@ -323,6 +324,9 @@ p{
         }
     }
         @media(min-width:800px){
+            width:175px;
+            opacity:0.5;
+           
             &:hover{
                 cursor:pointer;
                 margin-top:-20px;
@@ -388,6 +392,9 @@ margin:35px;
     padding-top:30px;
     display:flex;
     margin:auto;
+    @media(min-width: 800px){
+        margin-left:20%;
+    }
 }
 h1{
     color:white;
@@ -397,6 +404,9 @@ h2{
     color:white;
     text-align:center;
     margin-bottom:-10px;
+    @media(min-width: 800px){
+        text-align:start;
+    }
 }
 h3{
    
@@ -419,11 +429,22 @@ p{
     padding-top:20px;
     background-color:rgba(179,179,179,0.4);  
     border-radius: 50px 0 50px 0;
+
+    @media(min-width: 800px){
+        display:flex;
+        margin:auto;
+        padding:20px;
+        flex-direction:row;
+        width:80%;
+    }
+
 }
 .container1{
     display:flex;
+    
     flex-direction:column;
     margin:auto;
+    
    
    
 }
@@ -440,7 +461,12 @@ p{
 }
 
 img{
+    
     margin:auto;
     border-radius:12px;
+    @media(min-width: 800px){
+        width:250px;
+    }
+    
 }
 `
