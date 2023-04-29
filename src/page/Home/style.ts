@@ -333,10 +333,11 @@ p{
                 opacity:0.9;
             }
             &:active{
-                opacity:1;
-                scale:5.0;
+                opacity:2;
+                z-index:1;
+                scale:3.5;
                 position: absolute;
-                top: 1300px;
+                top: 2500px;
                 left: 0;
                 right: 0;
                 bottom: 0;        
@@ -348,6 +349,7 @@ p{
 `
 
 export const Projetos = styled.div`
+margin:20px;
 .trabalho{
     display:flex;
     flex-direction:column;

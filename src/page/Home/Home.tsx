@@ -104,7 +104,7 @@ export function Home() {
         <div className='container2'>
             <h2>Desenvolvedor Front-End</h2>
             <h3>Instituto de Educação e Cidadania</h3>
-            <h4>Março de 2023 - o momento</h4>
+            <h4>Março de 2023 - o momento (Voluntário)</h4>
             <p>- Revitalização do site, aplicando novas tecnologias de desenvolvimento para da mais performance à página.</p>
             <p>- React + TypeScript</p>
             <p>- Responsividade</p>
