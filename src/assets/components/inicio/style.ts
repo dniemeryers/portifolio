@@ -25,6 +25,16 @@ color: #BFBFBF;
 heigth:100%vh;
 margin-top:70px;
 
+.seta{
+    width:100px;
+    position:absolute;
+    top:730px;
+    right:0;
+    @media (min-width: 800px) {
+        top:500px;
+    }
+}
+
 h1{
     
     font-size:2.8em;
