@@ -1,6 +1,6 @@
 import{Header} from '../../assets/components/header/header'
 import Foto from '../../assets/img/perfil-diego.png'
-import {Container} from './style'
+import {Container,H1} from './style'
 
 
 
@@ -10,6 +10,7 @@ export function Sobre() {
 
     return(<>
 <Header/>
+<H1>Sobre</H1>
 <Container>      
 <div className='sobre'>
 

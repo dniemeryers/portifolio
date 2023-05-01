@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const H1 = styled.h1`
 color: #BFBFBF;
 text-align:center;
+margin-top:100px;
 `
 export const Container = styled.div`
 display:flex;
@@ -118,7 +119,7 @@ p{
         &:active{
             scale:3.0;
             position: absolute;
-            top: 350px;
+            top: 450px;
             left: 0;
             right: 0;
             bottom: 0;        
@@ -144,7 +145,7 @@ p{
         &:active{
             scale:3.0;
             position: absolute;
-            top: 550px;
+            top: 650px;
             left: 0;
             right: 0;
             bottom: 0;        

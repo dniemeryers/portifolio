@@ -5,7 +5,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { AiFillYoutube, AiOutlineMail, AiOutlinePhone } from "react-icons/Ai";
 import { IoLocationOutline } from "react-icons/io5";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+
 import { ContactForm, ContactInfo } from "./style";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
@@ -48,10 +48,10 @@ function Contact() {
     };
     emailjs
       .send(
-        "service_du8us6g",
-        "template_2elpy7c",
+        "service_ijni6if",
+        "template_ys4o50r",
         templateParams,
-        "yR13Du7wbMk-AWYlD"
+        "DrMaMBYS9LOVxveTk"
       )
       .then(
         (response) => {
@@ -143,7 +143,7 @@ function Contact() {
               {errors?.email?.message as string}
             </span>
             <InputMask
-              mask={"(99) 9999-99999"}
+              mask={"(99) 99999-9999"}
               {...register("phoneNumber")}
               type="text"
               className="input"

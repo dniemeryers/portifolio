@@ -61,7 +61,7 @@ export function Inicio() {
         top: "-60px",
       }}
       animate={{
-        top: ["0px", "30px"],
+        top: ["0px", "55px"],
       }}
       transition={{
         duration: 0.7,

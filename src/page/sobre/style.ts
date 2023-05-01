@@ -1,11 +1,15 @@
 import styled from "styled-components"; 
-
+export const H1 = styled.h1`
+color:#BFBFBF;
+margin-top:100px;
+text-align:center;
+`
 export const Container = styled.div`
 
 
 heigth:100%;
 margin:20px;
-margin-top:-1px;
+
 border-radius:20px;
 padding-bottom:50px;
 

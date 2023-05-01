@@ -10,7 +10,7 @@ export const Social = styled.div`
     flex-direction: column;
     position:fixed;
     top:40%;
-    left:10px;
+    left:-10px;
     .social-icon{
         &:hover{
             color:#6d6d6d;
@@ -26,7 +26,7 @@ heigth:100%vh;
 margin-top:70px;
 
 .seta{
-    width:100px;
+    width:60px;
     position:absolute;
     top:730px;
     right:0;
