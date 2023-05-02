@@ -23,7 +23,7 @@ export const Social = styled.div`
 export const Container = styled.div`
 color: #BFBFBF;
 heigth:100%vh;
-margin-top:70px;
+margin-top:150px;
 
 .seta{
     width:60px;
@@ -53,7 +53,7 @@ h2{
     display:flex;
     
 .imgs{
-   padding-top:130px;
+   padding-top:10px;
    margin:auto;
    
 }
@@ -67,8 +67,12 @@ p{
     margin-left:4px;
 }
 .perfil{
+   
+    box-shadow:0px 0px 15px white;
+    background-color:transparent;
+    border-radius: 50%;
     margin:7px;
-    border-radius:50%;
+    width:250px;
 }
 .sobre{
     text-indent: 10%;

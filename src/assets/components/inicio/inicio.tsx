@@ -1,6 +1,6 @@
 import {Container, Social} from './style';
 import { SocialIcon } from "react-social-icons";
-import Foto from '../../img/perfil-diego.png';
+import Foto from '../../img/perfildiego2.png';
 import Anhanguera from '../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png';
 import Betel from '../../assets/img/logo_betel_2023novo.fw_.png';
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
