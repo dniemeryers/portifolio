@@ -70,7 +70,7 @@ p{
    
     box-shadow:0px 0px 15px white;
     background-color:transparent;
-    border-radius: 40%;
+    border-radius: 50%;
     margin:7px;
     width:250px;
 }
