@@ -10,6 +10,15 @@ import { ContactForm, ContactInfo } from "./style";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
 
+
+interface ContactFormInputs {
+  name: string;
+  email: string;
+  phoneNumber: string;
+  subject: string;
+  message: string;
+}
+
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -33,7 +42,7 @@ function Contact() {
     handleSubmit,
     watch,
     formState: { errors },
-  } = useForm({
+  } = useForm<ContactFormInputs>({
     resolver: yupResolver(schema),
   });
 

@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
-    "esModuleInterop": true,
+    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
