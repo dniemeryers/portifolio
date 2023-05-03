@@ -3,7 +3,7 @@ import InputMask from "react-input-mask";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { AiFillYoutube, AiOutlineMail, AiOutlinePhone } from "react-icons/Ai";
+import {  AiOutlineMail, AiOutlinePhone } from "react-icons/Ai";
 import { IoLocationOutline } from "react-icons/io5";
 
 import { ContactForm, ContactInfo } from "./style";
