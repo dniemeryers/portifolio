@@ -2,15 +2,6 @@ import { Container, H1 } from "../educação/style"
 import { Header } from "../../assets/components/header/header"
 import Anhanguera from "../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png"
 import Betel from "../../assets/img/logo_betel_2023novo.fw_.png"
-import ScrumMaster from "../../assets/img/scrum_master.jpeg"
-import Scrum from "../../assets/img/certiprof scrum.jpeg"
-import JsWorkover from "../../assets/img/Certificado JS Worked.jpeg"
-import Reactype from "../../assets/img/react+type workover.jpeg"
-import TypeScript from "../../assets/img/typescript.jpeg"
-import Code from "../../assets/img/code_camp.jpeg"
-import Campus from "../../assets/img/dio campus expert.jpeg"
-import Orbi from "../../assets/img/orbi.jpeg"
-import Orange from "../../assets/img/BootCamp Orange tech.jpeg"
 
 
 export function Educacao(){
