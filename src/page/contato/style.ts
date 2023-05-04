@@ -1,4 +1,4 @@
-import styled from "styled-components"; 
+/*import styled from "styled-components"; 
 
 export const Container = styled.div`
 
@@ -30,4 +30,4 @@ h2{
     margin:10px;
     box-shadow: 3px 3px 3px gray;
 }
-`
+`*/

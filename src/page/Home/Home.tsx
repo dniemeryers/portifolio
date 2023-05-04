@@ -103,7 +103,7 @@ export function Home() {
                             </div>  
 
         </Projetos>
-        <Contact/>
+       
 
          
 

@@ -5,7 +5,7 @@ import {Sobre} from "../page/sobre/Sobre";
 import {Educacao} from "../page/educação/Educação";
 import {Projetos} from "../page/projetos/Projetos";
 import {Experiencias} from "../page/experiencia/Experiencia";
-import {Certificado} from "../page/contato/contato";
+
 
 
 
@@ -31,10 +31,10 @@ const router = createBrowserRouter([
   },{
     path: "/experiencia",
     element: <Experiencias/>,
-  },{
+  },/*{
     path: "/certificado",
     element: <Certificado/>,
-  },
+  },*/
 
 ]);
 
