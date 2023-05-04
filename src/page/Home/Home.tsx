@@ -10,7 +10,7 @@ import { Header } from '../../assets/components/header/header';
 import {Inicio} from '../../assets/components/inicio/inicio'
 import {Experiencias} from '../../page/experiencia/Experiencia'
 import { NavLink } from 'react-router-dom';
-import Contact from '../../assets/components/contatos/contato'
+//import Contact from '../../assets/components/contatos/contato'
 import Calc from '../../assets/img/projetos/calc.gif'
 import Seta from '../../assets/img/projetos/icone-fleche-droite-grise.png'
 
