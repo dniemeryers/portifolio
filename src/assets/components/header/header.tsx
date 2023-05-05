@@ -73,7 +73,7 @@ export function Header() {
                 duration: isMenuOpen ? 1.5 : 1,
              }}
              style={{ 
-                position: !isMenuOpen ? 'absolute':'relative', 
+                position: !isMenuOpen ? 'relative':'fixed', 
                 top: 0, 
                 left: 0, 
                 width: '100%', 
