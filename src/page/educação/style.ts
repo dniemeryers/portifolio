@@ -13,24 +13,27 @@ margin:auto;
 margin-top:-1px;
 
 .educacao{   
-   
+   margin:10px;
+    
     display:flex;
+    box-shadow: 0px 0px 20px white;
+    background-color:rgba(179,179,179,0.4);
     justify-content:space-around;
     flex-direction:column;   
     @media(min-width: 800px){
+        margin:auto;
         margin-top:10px;
         flex-direction:row;
+        width:800px;
     }
     
 }
 .escola{       
     padding:20px;    
-    height:150px;   
-    background-color:rgba(179,179,179,0.4);
+    height:120px;       
     border-radius:10px;
     margin:5px;    
-    &:hover{
-       
+    &:hover{       
 
     }
     

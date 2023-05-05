@@ -2,6 +2,7 @@ import { Container, H1 } from "../educação/style"
 import { Header } from "../../assets/components/header/header"
 import Anhanguera from "../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png"
 import Betel from "../../assets/img/logo_betel_2023novo.fw_.png"
+import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 
 
 
@@ -25,6 +26,23 @@ export function Educacao(){
                 <h4>Ensino médio - Téc. em Informática</h4>
                 <p>Concluído 2004 - 2006</p>
             </div>
+        </div>
+        <div className='certificados'>
+                <div className="curso" >
+                    <img className="certlinha1" src={JsWorkover} alt="" />
+                </div>
+                <div className="curso" >
+                    <img className="certlinha1" src={JsWorkover} alt="" />
+                </div>
+                <div className="curso" >
+                    <img className="certlinha1" src={JsWorkover} alt="" />
+                </div>
+                <div className="curso" >
+                    <img className="certlinha1" src={JsWorkover} alt="" />
+                </div>
+                <div className="curso" >
+                    <img className="certlinha1" src={JsWorkover} alt="" />
+                </div>
         </div>
             
     </Container>

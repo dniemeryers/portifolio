@@ -10,7 +10,7 @@ export const Container = styled.div`
 heigth:100%;
 margin:20px;
 
-border-radius:20px;
+
 padding-bottom:50px;
 
 h1{
@@ -41,6 +41,8 @@ h3{
     
     display:flex;
     flex-direction:column;
+    background-color:rgba(179,179,179,0.4);  
+        box-shadow: 0px 2px 10px white;     
     
     @media (min-width: 800px) {
         display:flex;
@@ -64,8 +66,8 @@ h3{
         color: white; 
         text-align:justify;
         margin:10px;
-        background-color:rgba(179,179,179,0.4);       
-        border-radius:10px;
+        
+       
         margin:auto;
         
         @media (min-width: 800px) {
@@ -83,6 +85,7 @@ img{
     display:flex;
     border-radius:50%;
     margin:auto;
+    margin-top:20px;
     
 
     }

@@ -48,7 +48,7 @@ p{
     flex-direction:column;
     padding-top:20px;
     background-color:rgba(179,179,179,0.4);  
-    border-radius: 50px 0 50px 0;
+    box-shadow: 0px 0px 20px white;
 
     @media(min-width: 800px){
         display:flex;

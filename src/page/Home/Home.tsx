@@ -47,8 +47,7 @@ export function Home() {
                             <h3>Anhanguera Educacional</h3>                        
                             <h4>Análise e Dev. de Sistemas</h4>
                             <p>Cursando 2º Período 2022 - 2024</p>
-                        </div>
-                        <div className='escola'>
+                                               
                             <img src={Betel} alt="" />
                             <h3>Centro Educacional Betel</h3>
                             <h4>Ensino médio - Téc. em Informática</h4>
@@ -67,24 +66,7 @@ export function Home() {
                 </div>
                 </div>
             </div>
-            <div className='cursos'>
-                <h1>Cursos</h1>
-                <p className='cert'>Click para ver o Certificado</p>
-                <div className='certificados'>
-                <div className="curso" >
-                    <img className="certlinha1" src={JsWorkover} alt="" />
-                    <img className="certlinha1" src={JsWorkover} alt="" />
-                    <img className="certlinha1" src={JsWorkover} alt="" />         
-                    <img className="certlinha1" src={JsWorkover} alt="" />
-                    <img className="certlinha1" src={JsWorkover} alt="" />
-                    <img className="certlinha1" src={JsWorkover} alt="" />       
-                    <img className="certlinha1" src={JsWorkover} alt="" />
-                    <img className="certlinha1" src={JsWorkover} alt="" />
-                    <img className="certlinha1" src={JsWorkover} alt="" />
-                    </div>
-                </div>
-            </div>
-
+           
         </Formacao>
         <Projetos>
         <div className='trabalho'>                        

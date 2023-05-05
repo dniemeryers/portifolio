@@ -119,11 +119,12 @@ h3{
     }
 }
 .emprego{
-        
-    display:flex;
-    
-    margin:auto;
    
+    display:flex;
+    background-color:rgba(179,179,179,0.4);       
+    box-shadow: 0px 0px 20px white;
+    margin:auto;
+    margin:20px;      
     flex-direction:column;
     
     @media (min-width: 800px) {
@@ -137,38 +138,32 @@ h3{
 }
 .info{
     text-align:justify;
-    width:350px;
-    margin:10px;
+    width:310px;
+    margin:30px;
     border-radius:10px;
     margin:auto;
+    
     @media (min-width: 800px) {
         width:50%;
     }
 }
-    .texto{
-        
+    .texto{        
         color: white; 
-        text-align:justify;
-        margin:20px;
-        background-color:rgba(179,179,179,0.4);       
-        border-radius:30px 0 30px 0 ;
-        
+        text-align:justify;      
         
         @media (min-width: 800px) {
             width:50%;
             margin-left:-100px;
             margin-top:-10px;
             
-        }
-        
-
-
-   
+        }   
 }
 img{
+   
     display:flex;
     border-radius:50%;
     margin:auto;
+    margin-top:20px;
     
 
     }
@@ -212,10 +207,10 @@ flex-direction:column;
 }
 .escola{       
     padding:20px;    
-    height:100px;   
+    height:220px;   
     width:250px;
     background-color:rgba(179,179,179,0.4);
-    border-radius: 25px 0 25px 0;
+    box-shadow: 0px 0px 20px white;    
     margin:5px;    
 }
 .cont{
@@ -312,7 +307,7 @@ p{
         border-radius:8px;
         
         @media(max-width:800px){
-        &:hover{
+            &:active{
             opacity:1;
             scale:2.9;
             
