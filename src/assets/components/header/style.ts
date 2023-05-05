@@ -180,12 +180,11 @@ a{
 .nav{
   height:550px;
   width:95%;
-  position:fixed;
+  
   top:-400px;
   display:flex;
   flex-direction:colunm;
-  font-size:1rem;
-  z-index:5;
+  font-size:1rem; 
   padding-top:60px;
   padding:10px; 
   background-color: rgb(24,24,24);

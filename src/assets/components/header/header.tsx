@@ -64,7 +64,7 @@ export function Header() {
                 opacity: 0,
              }}
              animate={{
-                y: isMenuOpen ? '72%' : '0%',
+                y: isMenuOpen ? '52%' : '0%',
                
                 opacity: isMenuOpen ? 1 : 0,
                 
@@ -73,8 +73,7 @@ export function Header() {
                 duration: isMenuOpen ? 1.5 : 1,
              }}
              style={{ 
-                position: 'fixed', 
-                zIndex: '1',
+                position: !isMenuOpen ? 'relative':'absolute', 
                 top: 0, 
                 left: 0, 
                 width: '100%', 
