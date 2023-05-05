@@ -181,7 +181,7 @@ a{
   height:550px;
   width:95%;
   
-  top:-600px;
+  margin-top:-500px;
   display:flex;
   flex-direction:colunm;
   font-size:1rem; 

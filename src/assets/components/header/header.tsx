@@ -60,11 +60,11 @@ export function Header() {
     <Container2>
       <motion.div 
              initial={{
-                y: -2500,
+                y: -4500,
                 opacity: 0,
              }}
              animate={{
-                y: isMenuOpen ? '32%' : '0%',
+                y: isMenuOpen ? '72%' : '0%',
                
                 opacity: isMenuOpen ? 1 : 0,
                 
