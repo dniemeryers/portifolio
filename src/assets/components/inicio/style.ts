@@ -26,9 +26,9 @@ heigth:100%vh;
 margin-top:150px;
 
 .seta{
-    width:60px;
+    width:40px;
     position:absolute;
-    top:730px;
+    top:430px;
     right:0;
     @media (min-width: 800px) {
         top:500px;

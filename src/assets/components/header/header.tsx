@@ -65,12 +65,14 @@ export function Header() {
              }}
              animate={{
                 y: isMenuOpen ? '30rem' : '0%',
+                
                
                 opacity: isMenuOpen ? 1 : 0,
                 
              }}
              transition={{
                 duration: isMenuOpen ? 1.5 : 1,
+                
              }}
              style={{ 
                 position: !isMenuOpen ? 'relative':'fixed', 
