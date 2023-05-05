@@ -165,7 +165,7 @@ a{
   font-size: 18px;
   display:flex;
   justify-content:left;
-  padding:15px 0 15px 0;
+  padding:10px 0 10px 0;
   zIndex:100;
   border-top: 1px solid #4a4a4a;
  
@@ -173,7 +173,7 @@ a{
 
 .nav{
   height:80%;
-  width:70%;
+  width:85%;
   position:fixed;
   right:0px;
   top:105px;
