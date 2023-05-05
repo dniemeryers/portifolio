@@ -178,7 +178,7 @@ a{
 }
 
 .nav{
-  height:660px;
+  height:550px;
   width:95%;
   position:fixed;
   top:-400px;
