@@ -79,7 +79,7 @@ export function Header() {
                 left: 0, 
                 width: '100%', 
                 height: '100%', 
-                display: isMenuOpen ? 'block' : 'none',                
+                                
              }}>
               
       <div className="nav" style={{ 

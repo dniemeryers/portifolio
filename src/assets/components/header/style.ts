@@ -72,7 +72,7 @@ a{
     }
 }
 .menu{
-    width:20px;
+    width:0px;
     @media (min-width: 800px) {
       display:none;
       }
@@ -87,21 +87,19 @@ a{
     
   }
 #checkbox-menu{
-  width:100px;
-  height:20px;
-    display:flex;
+  display:flex;
+    padding:0;
     margin:auto;
     display:flex;
-    
+    justify-content:center;
     opacity: 0;
   }
   
   label{
     cursor: pointer;
-    position: absolute;
-    right:10px;
+    position: relative;
     display: block;
-    height: 12px;
+    height: 22px;
     width: 30px;
   }
   
@@ -158,7 +156,7 @@ export const Container2 = styled.div`
 color:#BFBFBF;
 
 .perfil{
-  margin-top:20px;
+  margin-top:30px;
   margin-bottom:20px;
 }
 h3{
