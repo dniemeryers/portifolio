@@ -162,7 +162,7 @@ a{
   color:#BFBFBF;
   text-decoration:none;
   font-weight:bold;
-  font-size:33px;
+  font-size:23px;
   display:flex;
   justify-content:left;
   padding:15px 0 15px 0;
@@ -172,14 +172,14 @@ a{
 }
 
 .nav{
-  height:88%;
-  width:95%;
+  height:70%;
+  width:70%;
   position:fixed;
   right:0px;
   top:105px;
   display:flex;
   flex-direction:colunm;
-  font-size:1.5rem;
+  font-size:1rem;
   padding:10px;
   margin-top:-50px;
   background-color: rgb(24,24,24);

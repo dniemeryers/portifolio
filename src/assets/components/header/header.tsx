@@ -20,7 +20,7 @@ export function Header() {
   
 
   return (<>
-    <Container  >
+    <Container>
       <div className="icons">
       <motion.div
              initial={{
