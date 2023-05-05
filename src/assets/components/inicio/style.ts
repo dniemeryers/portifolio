@@ -53,7 +53,7 @@ h2{
     display:flex;
     
 .imgs{
-   padding-top:10px;
+   margin-top:10px;
    margin:auto;
    
 }

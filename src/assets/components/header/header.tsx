@@ -20,7 +20,7 @@ export function Header() {
   
 
   return (<>
-    <Container>
+    <Container style={{zIndex: '3'}}  >
       <div className="icons">
       <motion.div
              initial={{
@@ -58,35 +58,57 @@ export function Header() {
       </div>
     </Container>
     <Container2>
-    <div className="nav" style={{ 
-          display: isMenuOpen ? 'block' : 'none',
-          zIndex: '2'
+      <motion.div 
+             initial={{
+                y: 1500,
+                opacity: 0,
+             }}
+             animate={{
+                y: isMenuOpen ? '100%' : '0%',
+               
+                opacity: isMenuOpen ? 1 : 0,
+                
+             }}
+             transition={{
+                duration: isMenuOpen ? 1.5 : 1,
+             }}
+             style={{ 
+                position: 'fixed', 
+                zIndex: '1',
+                top: 0, 
+                left: 0, 
+                width: '100%', 
+                height: '100%', 
+                display: isMenuOpen ? 'block' : 'none',                
+             }}>
+              
+      <div className="nav" style={{ 
+        display: isMenuOpen ? 'block' : 'none',
+        
         }}>
-            <img className="perfil" src={Foto} width="100px" alt="" />
-            <h3>Diego Niemeyer</h3>
-              <NavLink to="/home">Home</NavLink>
-              <NavLink to="/sobre">Sobre</NavLink>
-              <NavLink to="/educacao">Formação</NavLink>
-              <NavLink to="/projetos">Projetos</NavLink>
-              <NavLink to="/experiencia">Experiências</NavLink>
-             
-              <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link">Curriculo</NavLink>
-            <Social>
-            <SocialIcon className='ic' url="https://www.linkedin.com/in/diego-niemeyer/"
-                fgColor='#BFBFBF'
-                bgColor='transparent'
-                target={"_blank"}/>
-            <SocialIcon className='ic' url="https://github.com/dniemeryers"
-                fgColor='#BFBFBF'
-                bgColor='transparent'
-                target={"_blank"}/>
-            <SocialIcon className='ic' url="https://api.whatsapp.com/send?phone=5521974112744"
-                fgColor='#BFBFBF'
-                bgColor='transparent'
-                target={"_blank"}/>     
-        </Social>
-           
-        </div>
+        <img className="perfil" src={Foto} width="100px" alt="" />            
+        <NavLink to="/home">Home</NavLink>
+        <NavLink to="/sobre">Sobre</NavLink>
+        <NavLink to="/educacao">Formação</NavLink>
+        <NavLink to="/projetos">Projetos</NavLink>
+        <NavLink to="/experiencia">Experiências</NavLink>             
+        <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link">Curriculo</NavLink>
+        <Social>
+          <SocialIcon className='ic' url="https://www.linkedin.com/in/diego-niemeyer/"
+            fgColor='#BFBFBF'
+            bgColor='transparent'
+            target={"_blank"}/>
+          <SocialIcon className='ic' url="https://github.com/dniemeryers"
+            fgColor='#BFBFBF'
+            bgColor='transparent'
+            target={"_blank"}/>
+          <SocialIcon className='ic' url="https://api.whatsapp.com/send?phone=5521974112744"
+            fgColor='#BFBFBF'
+            bgColor='transparent'
+            target={"_blank"}/>     
+        </Social>               
+      </div>
+      </motion.div>   
     </Container2>
   </>);
 }

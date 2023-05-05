@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div`
 position:fixed;
 top:0;
-background-color:black;
+background-color: rgb(24,24,24);
 box-shadow: 0px 2px 10px white;
 z-index:1;
 color:#BFBFBF;
@@ -72,7 +72,7 @@ a{
     }
 }
 .menu{
-    width:0px;
+    width:20px;
     @media (min-width: 800px) {
       display:none;
       }
@@ -87,19 +87,21 @@ a{
     
   }
 #checkbox-menu{
-  display:flex;
-    padding:0;
+  width:100px;
+  height:20px;
+    display:flex;
     margin:auto;
     display:flex;
-    justify-content:center;
+    
     opacity: 0;
   }
   
   label{
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    right:10px;
     display: block;
-    height: 22px;
+    height: 12px;
     width: 30px;
   }
   
@@ -154,6 +156,11 @@ a{
 `
 export const Container2 = styled.div`
 color:#BFBFBF;
+
+.perfil{
+  margin-top:20px;
+  margin-bottom:20px;
+}
 h3{
   margin-top:10px;
   text-align:center;
@@ -172,14 +179,15 @@ a{
 }
 
 .nav{
-  height:480px;
+  height:500px;
   width:95%;
   position:fixed;
-  right:0px;
-  top:105px;
+  top:-750px;
   display:flex;
   flex-direction:colunm;
   font-size:1rem;
+  z-index:5;
+  padding-top:60px;
   padding:10px;
   margin-top:-50px;
   background-color: rgb(24,24,24);
@@ -189,6 +197,7 @@ a{
 }
 img{
   display:flex;
+  margin-top20px;
   border-radius:50%;
   margin:auto;
 }

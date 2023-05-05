@@ -24,20 +24,7 @@ export function Inicio() {
     return(
         <>
         
-         <Social>
-            <SocialIcon className='social-icon' url="https://www.linkedin.com/in/diego-niemeyer/"
-                fgColor='#BFBFBF'
-                bgColor='transparent'
-                target={"_blank"}/>
-            <SocialIcon url="https://github.com/dniemeryers"
-                fgColor='#BFBFBF'
-                bgColor='transparent'
-                target={"_blank"}/>
-            <SocialIcon url="https://api.whatsapp.com/send?phone=5521974112744"
-                fgColor='#BFBFBF'
-                bgColor='transparent'
-                target={"_blank"}/>    
-        </Social>
+         
         
         <Container>    
             
@@ -71,6 +58,20 @@ export function Inicio() {
       <NavLink to="/#sobre"><img className="seta" src={Seta} alt="" /></NavLink>
     </motion.div>
     </Container>
+    <Social>
+            <SocialIcon className='social-icon' url="https://www.linkedin.com/in/diego-niemeyer/"
+                fgColor='#BFBFBF'
+                bgColor='transparent'
+                target={"_blank"}/>
+            <SocialIcon url="https://github.com/dniemeryers"
+                fgColor='#BFBFBF'
+                bgColor='transparent'
+                target={"_blank"}/>
+            <SocialIcon url="https://api.whatsapp.com/send?phone=5521974112744"
+                fgColor='#BFBFBF'
+                bgColor='transparent'
+                target={"_blank"}/>    
+        </Social>
 
         </>
         )
