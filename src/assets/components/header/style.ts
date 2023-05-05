@@ -180,7 +180,7 @@ a{
 .nav{
   height:460px;
   width:95%;
-  position:absolute;
+  position:fixed;
   top:-400px;
   display:flex;
   flex-direction:colunm;
