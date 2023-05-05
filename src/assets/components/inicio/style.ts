@@ -32,6 +32,7 @@ margin-top:150px;
     right:0;
     @media (min-width: 800px) {
         top:500px;
+        width:60px;
     }
 }
 

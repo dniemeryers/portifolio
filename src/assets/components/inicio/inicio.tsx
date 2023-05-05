@@ -51,7 +51,7 @@ export function Inicio() {
         top: ["0px", "55px"],
       }}
       transition={{
-        duration: 0.7,
+        duration: 0.5,
         repeat: Infinity,
         repeatType: "reverse",
         ease: "linear",
