@@ -177,7 +177,7 @@ a{
 }
 
 .nav{
-  height:500px;
+  height:70%;
   width:95%;
   position:fixed;
   top:-750px;
