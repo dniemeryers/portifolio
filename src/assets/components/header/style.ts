@@ -154,6 +154,7 @@ a{
 `
 export const Container2 = styled.div`
 color:#BFBFBF;
+heigth:500px;
 
 .perfil{
   margin-top:30px;
@@ -177,17 +178,16 @@ a{
 }
 
 .nav{
-  height:70%;
+  height:460px;
   width:95%;
-  position:fixed;
-  top:-750px;
+  position:absolute;
+  top:-400px;
   display:flex;
   flex-direction:colunm;
   font-size:1rem;
   z-index:5;
   padding-top:60px;
-  padding:10px;
-  margin-top:-50px;
+  padding:10px; 
   background-color: rgb(24,24,24);
   transition: transform 2s ease-in-out;
   
@@ -206,7 +206,7 @@ display:flex;
 width:100%;
 margin-left:-10px;
 position:absolute;
-bottom:10px;
+
 justify-content:space-around;
 
 .ic{

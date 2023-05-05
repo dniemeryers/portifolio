@@ -60,11 +60,11 @@ export function Header() {
     <Container2>
       <motion.div 
              initial={{
-                y: 1500,
+                y: -2500,
                 opacity: 0,
              }}
              animate={{
-                y: isMenuOpen ? '100%' : '0%',
+                y: isMenuOpen ? '52%' : '0%',
                
                 opacity: isMenuOpen ? 1 : 0,
                 
@@ -79,7 +79,7 @@ export function Header() {
                 left: 0, 
                 width: '100%', 
                 height: '100%', 
-                                
+                             
              }}>
               
       <div className="nav" style={{ 
