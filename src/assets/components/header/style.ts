@@ -157,7 +157,7 @@ color:#BFBFBF;
 heigth:500px;
 
 .perfil{
-  margin-top:30px;
+  margin-top:100px;
   margin-bottom:20px;
 }
 h3{
@@ -178,7 +178,7 @@ a{
 }
 
 .nav{
-  height:460px;
+  height:660px;
   width:95%;
   position:fixed;
   top:-400px;
@@ -195,7 +195,7 @@ a{
 }
 img{
   display:flex;
-  margin-top20px;
+  margin-top:200px;
   border-radius:50%;
   margin:auto;
 }
