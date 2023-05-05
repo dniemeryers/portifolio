@@ -172,7 +172,7 @@ a{
 }
 
 .nav{
-  height:80%;
+  height:550px;
   width:85%;
   position:fixed;
   right:0px;
