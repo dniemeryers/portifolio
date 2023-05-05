@@ -53,7 +53,7 @@ export function Header() {
           <NavLink className={'navlink'} to="/projetos">Projetos</NavLink>
           <NavLink className={'navlink'} to="/experiencia">Experiências</NavLink>
           
-          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link"><input type="submit" className="button" value="Curriculo"/></NavLink>
+          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><input type="submit" className="button" value="Curriculo"/></NavLink>
         </div>
       </div>
     </Container>

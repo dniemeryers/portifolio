@@ -28,7 +28,7 @@ margin-top:150px;
 .seta{
     width:40px;
     position:absolute;
-    top:25rem;
+    top:27rem;
     right:0;
     @media (min-width: 800px) {
         top:500px;
