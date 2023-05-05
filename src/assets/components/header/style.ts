@@ -179,13 +179,11 @@ a{
 
 .nav{
   height:550px;
-  width:95%;
-  
+  width:95%;  
   margin-top:-500px;
   display:flex;
   flex-direction:colunm;
-  font-size:1rem; 
-  padding-top:60px;
+  font-size:1rem;   
   padding:10px; 
   background-color: rgb(24,24,24);
   transition: transform 2s ease-in-out;

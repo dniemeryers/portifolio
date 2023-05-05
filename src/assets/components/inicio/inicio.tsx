@@ -35,7 +35,7 @@ export function Inicio() {
                 <div className="imgs">                    
                     <img className="perfil" src={Foto} width="250px" alt="" />
                     
-                    <h1>{text} <Cursor cursorColor='#BFBFBF' /></h1>
+                    <h1>{text}<Cursor cursorColor='#BFBFBF' /></h1>
                    
                 </div>                        
             </div>
