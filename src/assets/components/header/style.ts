@@ -162,7 +162,7 @@ a{
   color:#BFBFBF;
   text-decoration:none;
   font-weight:bold;
-  font-size:23px;
+  font-size: 18px;
   display:flex;
   justify-content:left;
   padding:15px 0 15px 0;
@@ -172,7 +172,7 @@ a{
 }
 
 .nav{
-  height:70%;
+  height:80%;
   width:70%;
   position:fixed;
   right:0px;
