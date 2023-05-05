@@ -64,7 +64,7 @@ export function Header() {
                 opacity: 0,
              }}
              animate={{
-                y: isMenuOpen ? '82%' : '0%',
+                y: isMenuOpen ? '72%' : '0%',
                
                 opacity: isMenuOpen ? 1 : 0,
                 
