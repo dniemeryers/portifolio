@@ -18,7 +18,7 @@ export function Home() {
     
     
     return(<>
-        <Header/>
+        
         <Inicio/>
         <H1>Sobre</H1>
         <Sobre id="sobre">      

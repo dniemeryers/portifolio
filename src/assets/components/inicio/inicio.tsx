@@ -1,6 +1,7 @@
 import {Container, Social} from './style';
 import { SocialIcon } from "react-social-icons";
 import Foto from '../../img/perfildiego2.png';
+import {Header} from '../header/header'
 
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import { motion } from "framer-motion";
@@ -25,8 +26,9 @@ export function Inicio() {
         <>
         
          
-        
-        <Container>    
+       
+        <Container>   
+       
             
            
             <div className='bio'>
