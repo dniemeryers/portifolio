@@ -93,7 +93,7 @@ export function Header() {
         <NavLink to="/educacao">Formação</NavLink>
         <NavLink to="/projetos">Projetos</NavLink>
         <NavLink to="/experiencia">Experiências</NavLink>             
-        <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link">Curriculo</NavLink>
+        <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}>Curriculo</NavLink>
         <Social>
           <SocialIcon className='ic' url="https://www.linkedin.com/in/diego-niemeyer/"
             fgColor='#BFBFBF'
