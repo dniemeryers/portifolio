@@ -16,6 +16,9 @@ export const Social = styled.div`
             color:#6d6d6d;
         }
     }
+    @media (min-width: 800px) {
+        margin-left:20px;
+    }
     
 `
 

@@ -103,6 +103,10 @@ export function Header() {
             fgColor='#BFBFBF'
             bgColor='transparent'
             target={"_blank"}/>
+          <SocialIcon url="mailto:dniemeyers@gmail.com"
+              fgColor='#BFBFBF'
+              bgColor='transparent'
+              target={"_blank"}/>    
           <SocialIcon className='ic' url="https://api.whatsapp.com/send?phone=5521974112744"
             fgColor='#BFBFBF'
             bgColor='transparent'
