@@ -3,7 +3,7 @@ import { Header } from "../../assets/components/header/header"
 import Anhanguera from "../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png"
 import Betel from "../../assets/img/logo_betel_2023novo.fw_.png"
 import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
-import ScrumMaster from '../../assets/img/scrum_master.jpeg'
+import ScrumMaster from '../../assets/img/scrumMaster.jpeg'
 //import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 //import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 //import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
