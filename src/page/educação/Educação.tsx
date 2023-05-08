@@ -4,7 +4,8 @@ import Anhanguera from "../../assets/img/Anhanguera_Educacional_logo-e1589831484
 import Betel from "../../assets/img/logo_betel_2023novo.fw_.png"
 import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 import Scrum from '../../assets/img/certiprof scrum.jpeg'
-import Type from '../../assets/img/BootCamp Orange tech.jpeg'
+import Orange from '../../assets/img/BootCamp Orange tech.jpeg'
+import Type from '../../assets/img/typescript.jpeg'
 
 
 
@@ -34,7 +35,7 @@ export function Educacao(){
             <div className="curso">          
                     <img className="certlinha1" src={Scrum} alt="" />               
                     <img className="certlinha1" src={Type} alt="" />               
-                    <img className="certlinha1" src={JsWorkover} alt="" />               
+                    <img className="certlinha1" src={Orange} alt="" />               
                     <img className="certlinha1" src={JsWorkover} alt="" />               
                     <img className="certlinha1" src={JsWorkover} alt="" />                
             </div>
