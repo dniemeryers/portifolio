@@ -35,7 +35,7 @@ export function Educacao(){
                 <p>Concluído 2004 - 2006</p>
             </div>
         </div>
-        <H1>Cursos e Certificados</H1>
+        <h1>Cursos e Certificados</h1>
         <div className='certificados'>
             <div className="curso">          
                     <img className="certlinha1" src={Scrum} alt="" />               

@@ -45,7 +45,7 @@ margin:auto;
      
 }
 h1{
-    font-size:26px;
+    margin-top:50px;
     color: #BFBFBF;
     text-align:center;  
 }
@@ -88,7 +88,7 @@ img{
 .certificados{
     background-color:rgba(179,179,179,0.4);
     box-shadow: 0px 0px 10px 5px #00d7ff;
-    margin:35px;
+    margin:0 35px 0 35px;
     padding:20px;
     display:flex;
     flex-direction:column;

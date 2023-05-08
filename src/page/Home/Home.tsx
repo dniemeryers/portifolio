@@ -106,6 +106,7 @@ export function Home() {
                 <img className='skill' src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="" />
                 <img className='skill' src="https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png" alt="" />
                 <img className='skill' src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="" />
+                <img className='skill' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp3q4SSB2943NZ2nznufOMI_ZPt97J1mJrwDamo5zgqYuoA4uQVJ1qRsa3ZAELIEgArw4&usqp=CAU" alt="" />
                 </div>
                 </div>
             </div>
