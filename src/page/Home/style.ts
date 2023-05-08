@@ -8,6 +8,13 @@ padding-top:250px;
 padding-bottom:-30px;
 
 `
+export const H2 = styled.h1`
+color: #BFBFBF;
+text-align:center;
+padding-top:50px;
+padding-bottom:-30px;
+
+`
 
 export const Social = styled.div`
 
@@ -393,10 +400,7 @@ margin:0px;
     @media(min-width:800px){
         width:300px;
         height:450px;
-        &:hover{
-            opacity:0.5;
-            background-image:url('https://cdn-icons-png.flaticon.com/512/65/65000.png')
-        }
+        
     } 
        
 }

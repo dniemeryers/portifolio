@@ -1,4 +1,4 @@
-import {Container, Social,Sobre,H1,Formacao,Projetos,Experiencia} from './style';
+import {Sobre,H1,H2,Formacao,Projetos} from './style';
 
 import Foto from '../../assets/img/perfil-diego.png';
 import Anhanguera from '../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png';
@@ -36,6 +36,7 @@ export function Home() {
                 </div>
             </div>
         </Sobre>
+        <H2>Projetos</H2>
         <Projetos>
         <div className='trabalho'>                        
             <h4>Calculadora</h4>
@@ -50,6 +51,20 @@ export function Home() {
                 <img className='tec' src={'https://avatars.githubusercontent.com/u/20658825?s=200&v=4'} alt="Styled-Component" />
             </div>                          
         </div>
+        <div className='trabalho'>                        
+            <h4>Calculadora</h4>
+            <div>
+                <img className='imgcalc' src={Calc} alt="" />
+            </div>
+            <h3>Link do deploy:<NavLink to="/home"></NavLink></h3>
+            <h3>Link do Repositório:<NavLink to="/home"></NavLink></h3>
+            <h4>Tecnologias Utilizadas</h4>
+            <div className='tecnologia'>
+                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg'} alt="React" />
+                <img className='tec' src={'https://avatars.githubusercontent.com/u/20658825?s=200&v=4'} alt="Styled-Component" />
+            </div>                          
+        </div>
+       
         <div className='trabalho'>                        
             <h4>Calculadora</h4>
             <div>
