@@ -5,7 +5,7 @@ import Betel from "../../assets/img/logo_betel_2023novo.fw_.png"
 import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 import Scrum from '../../assets/img/certiprof scrum.jpeg'
 import Orange from '../../assets/img/BootCamp Orange tech.jpeg'
-import Type from '../../assets/img/typescript.jpeg'
+import Type from '../../assets/img/type script.jpeg'
 
 
 
