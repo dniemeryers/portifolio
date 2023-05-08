@@ -6,10 +6,11 @@ import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 import Scrum from '../../assets/img/certiprof scrum.jpeg'
 import Orange from '../../assets/img/BootCamp Orange tech.jpeg'
 import Type from '../../assets/img/type script.jpeg'
-import DioCampus from '../../assets/img/Certificado JS Worked.jpeg'
+import DioCampus from '../../assets/img/dio campus expert.jpeg'
 import Orbi from '../../assets/img/orbi.jpeg'
 import ReacType from '../../assets/img/react type.jpeg'
 import ScrumMaster from '../../assets/img/scrum Master.jpeg'
+import CodeCamp from '../../assets/img/code camp.jpeg'
 
 
 
@@ -46,7 +47,8 @@ export function Educacao(){
             <div className="curso">
                     <img className="certlinha2" src={ScrumMaster} alt="" />               
                     <img className="certlinha2" src={JsWorkover} alt="" />               
-                    <img className="certlinha2" src={Orbi} alt="" />       
+                    <img className="certlinha2" src={Orbi} alt="" />
+                    <img className="certlinha2" src={CodeCamp} alt="" />       
             </div>        
         </div>
             
