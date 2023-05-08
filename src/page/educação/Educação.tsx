@@ -6,6 +6,10 @@ import JsWorkover from '../../assets/img/Certificado JS Worked.jpeg'
 import Scrum from '../../assets/img/certiprof scrum.jpeg'
 import Orange from '../../assets/img/BootCamp Orange tech.jpeg'
 import Type from '../../assets/img/type script.jpeg'
+import DioCampus from '../../assets/img/Certificado JS Worked.jpeg'
+import Orbi from '../../assets/img/orbi.jpeg'
+import ReacType from '../../assets/img/react type workover.jpeg'
+import ScrumMaster from '../../assets/img/scrum Master.jpeg'
 
 
 
@@ -36,13 +40,13 @@ export function Educacao(){
                     <img className="certlinha1" src={Scrum} alt="" />               
                     <img className="certlinha1" src={Type} alt="" />               
                     <img className="certlinha1" src={Orange} alt="" />               
-                    <img className="certlinha1" src={JsWorkover} alt="" />               
-                    <img className="certlinha1" src={JsWorkover} alt="" />                
+                    <img className="certlinha1" src={DioCampus} alt="" />               
+                    <img className="certlinha1" src={ReacType} alt="" />                
             </div>
             <div className="curso">
+                    <img className="certlinha2" src={ScrumMaster} alt="" />               
                     <img className="certlinha2" src={JsWorkover} alt="" />               
-                    <img className="certlinha2" src={JsWorkover} alt="" />               
-                    <img className="certlinha2" src={JsWorkover} alt="" />       
+                    <img className="certlinha2" src={Orbi} alt="" />       
             </div>        
         </div>
             
