@@ -1,4 +1,4 @@
-import {Sobre,H1,H2,Formacao,Projetos} from './style';
+import {Sobre,H1,H2,Formacao,Projetos,Habilidade} from './style';
 
 import Foto from '../../assets/img/perfil-diego.png';
 import Anhanguera from '../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png';
@@ -30,11 +30,24 @@ export function Home() {
                     </div>            
                     <div className='texto'>            
                         <p>Olá meu nome é Diego Niemeyer e estou estudando desenvolvimento front-end,<strong> minha meta é ajudar empresas a alcançar seus objetivos através do desenvolvimento tecnológico, fornecendo soluções personalizadas e de alta qualidade para seus problemas.</strong></p>
-                        <p>Por meio do uso de tecnologias inovadoras, metodologias ágeis e boas práticas de desenvolvimento, garanto que meu trabalho será de alta qualidade. Além disso, acredito que a transparência, a comunicação e a colaboração são fundamentais para o sucesso de qualquer projeto, por isso que gosto de manter uma comunicação clara e efetiva com todos no processo de desenvolvimento.</p>
+                        <p>Por meio do uso de tecnologias inovadoras, metodologias ágeis e boas práticas de desenvolvimento, garanto que meu trabalho será de alta qualidade. Além disso, acredito que a transparência, comunicação e a colaboração são fundamentais para o sucesso de qualquer projeto, mantendo sempre uma comunicação clara e efetiva com todos no processo de desenvolvimento.</p>
                     </div>
                 </div>
             </div>
         </Sobre>
+        <Habilidade>
+        <div className='habilidade'>
+                <h1>Habilidades</h1>
+                <div className='skills'>
+                <img className='skill' src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="" />
+                <img className='skill' src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="" />
+                <img className='skill' src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="" />
+                <img className='skill' src="https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png" alt="" />
+                <img className='skill' src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="" />
+                <img className='skill' src="https://avatars.githubusercontent.com/u/20658825?s=200&v=4" alt="" />
+                </div>
+                </div>
+        </Habilidade>
         <H2>Projetos</H2>
         <Projetos>
         <div className='trabalho'>                        
@@ -97,17 +110,7 @@ export function Home() {
                         </div>
                    
                 </div>
-                <div className='habilidade'>
-                <h1>Habilidades</h1>
-                <div className='skills'>
-                <img className='skill' src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="" />
-                <img className='skill' src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="" />
-                <img className='skill' src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="" />
-                <img className='skill' src="https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png" alt="" />
-                <img className='skill' src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="" />
-                <img className='skill' src="https://avatars.githubusercontent.com/u/20658825?s=200&v=4" alt="" />
-                </div>
-                </div>
+                
             </div>
            
         </Formacao>

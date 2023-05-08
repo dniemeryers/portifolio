@@ -18,7 +18,6 @@ margin:35px;
 }
 h1{
     margin-top:70px;
-    color:white;
     text-align:center;
 }
 h2{

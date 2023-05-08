@@ -15,6 +15,53 @@ padding-top:50px;
 padding-bottom:-30px;
 
 `
+export const Habilidade = styled.div`
+margin:35px;
+
+h1{
+    font-size:32px;
+    color: #BFBFBF;
+    text-align:center;  
+    margin-bottom:25px;
+}
+
+    img{
+        width:70px;
+       
+    }
+      
+
+.skills{
+    background-color:rgba(179,179,179,0.4);
+    box-shadow: 0px 0px 10px 5px #00d7ff;
+    padding:20px 0 20px 0;
+    display:flex;   
+    justify-content:space-around;
+    margin:auto;
+       
+    
+    @media(min-width: 800px){
+
+        width:1100px;
+        justify-content:space-evenly;
+    }
+    
+    
+    
+    
+}
+.skill{
+    
+    display:flex;    
+    width:40px;
+    height:40px;
+    @media(min-width: 800px){
+    width:60px;
+    height:60px;
+
+    }
+}
+`
 
 export const Social = styled.div`
 
@@ -200,6 +247,7 @@ export const Formacao = styled.div`
 display:flex;
 margin-top:100px;
 flex-direction:column;
+padding-bottom:40px;
 @media (min-width: 800px) {
     
 }
@@ -239,7 +287,7 @@ flex-direction:column;
      
 }
 h1{
-    font-size:26px;
+    font-size:32px;
     color: #BFBFBF;
     text-align:center;  
 }

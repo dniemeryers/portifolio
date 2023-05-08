@@ -23,7 +23,7 @@ export function Sobre() {
     </div>
     <div className='texto'>
        <p>Olá meu nome é Diego Niemeyer e estou a 1 ano estudando desenvolvimento front-end,<strong> minha meta é ajudar empresas a alcançar seus objetivos através do desenvolvimento tecnológico, fornecendo soluções personalizadas e de alta qualidade para seus problemas.</strong></p>
-       <p>Por meio do uso de tecnologias inovadoras, metodologias ágeis e boas práticas de desenvolvimento, garanto que meu trabalho será de alta qualidade. Além disso, acredito que a transparência, a comunicação e a colaboração são fundamentais para o sucesso de qualquer projeto, por isso que gosto de manter uma comunicação clara e efetiva com todos no processo de desenvolvimento.</p>
+       <p>Por meio do uso de tecnologias inovadoras, metodologias ágeis e boas práticas de desenvolvimento, garanto que meu trabalho será de alta qualidade. Além disso, acredito que a transparência, comunicação e a colaboração são fundamentais para o sucesso de qualquer projeto, mantendo sempre uma comunicação clara e efetiva com todos no processo de desenvolvimento.</p>
        
       
     </div>
