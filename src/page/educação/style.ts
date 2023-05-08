@@ -128,8 +128,8 @@ img{
     margin:auto;
     margin-top:20px;
     width:200px;
-    box-shadow:0px 0px 6px 2px black;
-    border-radius:8px;
+    box-shadow:0px 0px 10px 5px black;
+   
     @media(max-width:800px){
         
     &:hover{
@@ -157,8 +157,8 @@ img{
     margin:auto;
     margin-top:20px;
     width:200px;
-    box-shadow:0px 0px 6px 2px black;
-    border-radius:8px;
+    box-shadow:0px 0px 10px 5px black;
+   
     @media(max-width:800px){
     &:hover{
         scale:1.9;
