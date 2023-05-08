@@ -71,7 +71,7 @@ export function Header() {
                 
              }}
              transition={{
-                duration: isMenuOpen ? 1.5 : 1,
+                duration: isMenuOpen ? 1.0 : 1,
                 
              }}
              style={{ 
