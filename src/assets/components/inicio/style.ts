@@ -71,7 +71,7 @@ p{
 }
 .perfil{
    
-    box-shadow:0px 0px 15px #00d7ff;
+    box-shadow: 0px 0px 10px 5px #00d7ff;
     background-color: rgb(24,24,24);
     border-radius: 50%;
     margin:7px;

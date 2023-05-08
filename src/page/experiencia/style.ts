@@ -48,8 +48,7 @@ p{
     flex-direction:column;    
     padding-top:20px;
     background-color:rgba(179,179,179,0.4);  
-    box-shadow: 0px 0px 20px #00d7ff;
-
+    box-shadow: 0px 0px 10px 5px #00d7ff;
 
     @media(min-width: 800px){
         width:1100px;

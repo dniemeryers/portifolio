@@ -7,18 +7,16 @@ text-align:center;
 export const Container = styled.div`
 
 
-heigth:100%;
-margin:20px;
-
-
+margin-top:10px;
 padding-bottom:50px;
+margin:0px;
 
 h1{
     margin-top:10px;
     color:white;
     text-align:center;
     @media (min-width: 800px) {
-        font-size:30px;
+        font-size:25px;
     }
     
 }
@@ -27,26 +25,41 @@ h3{
     margin-top:-18px;
     text-align:center;
     color:white;
+    @media (min-width: 800px) {
+        font-size:18px;
+    }
     
 }
 .sobre{
-    margin-top:30px;
-
+    display:flex;
+    margin-top:30px; 
+      
+    margin:auto;
+    margin:35px; 
     @media (min-width: 800px) {
+        display: flex;
+        flex-direction:column;
+        text-align:justify;
+        padding:20px;
+        margin:auto;       
+       
     margin-top:50px;
 
     }
 }
 .emprego{
-    
+   
     display:flex;
+    background-color:rgba(179,179,179,0.4);       
+    box-shadow: 0px 0px 20px #00d7ff;
+    margin:auto;      
     flex-direction:column;
-    background-color:rgba(179,179,179,0.4);  
-        box-shadow: 0px 2px 10px white;     
     
     @media (min-width: 800px) {
         display:flex;
         flex-direction:row;
+        margin-left:118px;    
+        margin-right:118px;
            
         }
     
@@ -55,33 +68,28 @@ h3{
 }
 .info{
     text-align:justify;
-    margin:10px;
+    width:310px;
+    margin:30px;
     border-radius:10px;
     margin:auto;
+    
     @media (min-width: 800px) {
-        width:50%;
+        padding:20px;
+        
     }
 }
-    .texto{
+    .texto{        
         color: white; 
-        text-align:justify;
-        margin:10px;
-        
-       
-        margin:auto;
+        text-align:justify;      
         
         @media (min-width: 800px) {
-            width:50%;
-            margin-left:-100px;
-            margin-top:-10px;
             
-        }
-        
-
-
-   
+            m
+            
+        }   
 }
 img{
+   
     display:flex;
     border-radius:50%;
     margin:auto;

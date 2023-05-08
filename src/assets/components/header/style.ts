@@ -5,7 +5,7 @@ export const Container = styled.div`
 position:fixed;
 top:0;
 background-color: rgb(24,24,24);
-box-shadow: 0px 2px 10px #00d7ff;
+box-shadow: 0px 0px 10px 5px #00d7ff;
 z-index:1;
 color:#BFBFBF;
 justify-content:space-betweem;

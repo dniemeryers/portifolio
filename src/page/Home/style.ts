@@ -128,7 +128,7 @@ h3{
    
     display:flex;
     background-color:rgba(179,179,179,0.4);       
-    box-shadow: 0px 0px 20px #00d7ff;
+    box-shadow: 0px 0px 10px 5px #00d7ff;
     margin:auto;      
     flex-direction:column;
     
@@ -205,7 +205,7 @@ flex-direction:column;
     flex-direction:column;
     margin:0 35px 0 35px;
     background-color:rgba(179,179,179,0.4);
-    box-shadow: 0px 0px 20px #00d7ff;
+    box-shadow: 0px 0px 10px 5px #00d7ff;
         
     
     @media(min-width: 800px){
@@ -274,10 +274,11 @@ p{
     margin:auto;
     margin-top:40px;
     
+    
 }
 .skills{
     background-color:rgba(179,179,179,0.4);
-    box-shadow: 0px 0px 20px #00d7ff;
+    box-shadow: 0px 0px 10px 5px #00d7ff;
     padding:20px;
     display:flex;
     margin:10px;    
