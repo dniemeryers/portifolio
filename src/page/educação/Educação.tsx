@@ -8,7 +8,7 @@ import Orange from '../../assets/img/BootCamp Orange tech.jpeg'
 import Type from '../../assets/img/type script.jpeg'
 import DioCampus from '../../assets/img/Certificado JS Worked.jpeg'
 import Orbi from '../../assets/img/orbi.jpeg'
-import ReacType from '../../assets/img/react type workover.jpeg'
+import ReacType from '../../assets/img/react type.jpeg'
 import ScrumMaster from '../../assets/img/scrum Master.jpeg'
 
 
