@@ -5,7 +5,7 @@ export const Container = styled.div`
 position:fixed;
 top:0;
 background-color: rgb(24,24,24);
-box-shadow: 0px 2px 10px white;
+box-shadow: 0px 2px 10px #00d7ff;
 z-index:1;
 color:#BFBFBF;
 justify-content:space-betweem;
@@ -23,7 +23,7 @@ width:100%;
   cursor: pointer;
   background-color: gray;
   font-size: 16px;
-  box-shadow: 0px 0px 5px 3px white;;
+  box-shadow: 0px 0px 5px 3px #00d7ff;
   transition: background-color, transform 0.8s;
   &:hover {
     scale:1.2;

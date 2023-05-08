@@ -84,20 +84,16 @@ p{
 `
 export const Sobre = styled.div`
 
-
-heigth:100%;
-margin:20px;
 margin-top:10px;
-border-radius:20px 0 20px 0 ;
-
 padding-bottom:50px;
+margin:0px;
 
 h1{
     margin-top:10px;
     color:white;
     text-align:center;
     @media (min-width: 800px) {
-        font-size:30px;
+        font-size:25px;
     }
     
 }
@@ -106,14 +102,24 @@ h3{
     margin-top:-18px;
     text-align:center;
     color:white;
+    @media (min-width: 800px) {
+        font-size:18px;
+    }
     
 }
 .sobre{
     display:flex;
     margin-top:30px; 
-    margin:40px;   
+      
     margin:auto;
+    margin:35px; 
     @media (min-width: 800px) {
+        display: flex;
+        flex-direction:column;
+        text-align:justify;
+        padding:20px;
+        margin:auto;       
+       
     margin-top:50px;
 
     }
@@ -122,14 +128,15 @@ h3{
    
     display:flex;
     background-color:rgba(179,179,179,0.4);       
-    box-shadow: 0px 0px 20px white;
-    margin:auto;
-    margin:20px;      
+    box-shadow: 0px 0px 20px #00d7ff;
+    margin:auto;      
     flex-direction:column;
     
     @media (min-width: 800px) {
         display:flex;
         flex-direction:row;
+        margin-left:118px;    
+        margin-right:118px;
            
         }
     
@@ -144,7 +151,8 @@ h3{
     margin:auto;
     
     @media (min-width: 800px) {
-        width:50%;
+        padding:20px;
+        
     }
 }
     .texto{        
@@ -152,9 +160,8 @@ h3{
         text-align:justify;      
         
         @media (min-width: 800px) {
-            width:50%;
-            margin-left:-100px;
-            margin-top:-10px;
+            
+            m
             
         }   
 }
@@ -183,21 +190,30 @@ export const Formacao = styled.div`
 
 .container{
 display:flex;
-margin:10px;
 margin-top:100px;
 flex-direction:column;
 @media (min-width: 800px) {
-    flex-direction:row;
+    
 }
+
 }
 
 
 .educacao{      
+    
     display:flex;
     flex-direction:column;
-    justify-content:space-around;     
+    margin:0 35px 0 35px;
+    background-color:rgba(179,179,179,0.4);
+    box-shadow: 0px 0px 20px #00d7ff;
+        
     
     @media(min-width: 800px){
+        width:1100px;
+        display:flex;
+        flex-direction:row;
+        padding:20px;
+        margin:auto;
         margin-top:10px;
         justify-content:space-around; 
         
@@ -206,17 +222,12 @@ flex-direction:column;
     
 }
 .escola{       
-    padding:20px;    
-    height:220px;   
-    width:250px;
-    background-color:rgba(179,179,179,0.4);
-    box-shadow: 0px 0px 20px white;    
-    margin:5px;    
-}
-.cont{
-    display:flex;
     margin:auto;
-    flex-direction:column;
+    height:170px;   
+    padding:10px;
+        
+     
+}
      
 }
 h1{
@@ -231,48 +242,60 @@ h2{
 }
 h3{
     font-size:16px;
-    color:white;
-    text-align:end;
-    margin-left:0px;
-    margin-top:-30px;
+    color:white;    
+    
+    margin-top:5px;
+    @media(min-width: 800px){
+        font-size:22px;
+        margin-top:0;
+    }
 }
 h4{
     font-size:16px;
     margin-top:-10px;
     color: #BFBFBF;
-    text-align:end;
+   
 }
 p{
     margin-top:-15px;
-    padding-left:5px;
+    
     color: #BFBFBF;
     font-weight:bold;
-    text-align:end;
+    
 } 
 .cert{
     text-align:center;
 }
     img{
-        width:60px;
+        width:70px;
         top:10px;
     }
 .habilidade{    
-   margin:auto;
-    margin-top:10px;
+    margin:auto;
+    margin-top:40px;
     
 }
 .skills{
+    background-color:rgba(179,179,179,0.4);
+    box-shadow: 0px 0px 20px #00d7ff;
+    padding:20px;
     display:flex;
-    flex-direction:row; 
-    justify-content:space-around;
+    margin:10px;    
+    
+    @media(min-width: 800px){
+        width:1100px;
+        justify-content:space-around;
+    }
+    
     
     
     
 }
 .skill{
-    display:flex;   
-    width:60px;
-    height:60px;
+    display:flex; 
+    margin:5px;  
+    width:40px;
+    height:40px;
 }
 .curso{
    width:90%;

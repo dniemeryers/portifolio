@@ -45,23 +45,24 @@ p{
 }
 .container{
     display:flex;
-    flex-direction:column;
+    flex-direction:column;    
     padding-top:20px;
     background-color:rgba(179,179,179,0.4);  
-    box-shadow: 0px 0px 20px white;
+    box-shadow: 0px 0px 20px #00d7ff;
+
 
     @media(min-width: 800px){
+        width:1100px;
         display:flex;
         margin:auto;
-        padding:20px;
+        padding:20px;               
         flex-direction:row;
-        width:80%;
+       
     }
 
 }
 .container1{
-    display:flex;
-    
+    display:flex;    
     flex-direction:column;
     margin:auto;
     
@@ -71,11 +72,7 @@ p{
 .container2{
     display:flex;
     margin:20px;
-    flex-direction:column;
-    
-   
-   
-   
+    flex-direction:column;   
     
    
 }

@@ -36,10 +36,24 @@ export function Home() {
                 </div>
             </div>
         </Sobre>
+        <Projetos>
+        <div className='trabalho'>                        
+            <h4>Calculadora</h4>
+            <div>
+                <img className='imgcalc' src={Calc} alt="" />
+            </div>
+            <h3>Link do deploy:<NavLink to="/home"></NavLink></h3>
+            <h3>Link do Repositório:<NavLink to="/home"></NavLink></h3>
+            <h4>Tecnologias Utilizadas</h4>
+            <div className='tecnologia'>
+                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg'} alt="React" />
+                <img className='tec' src={'https://avatars.githubusercontent.com/u/20658825?s=200&v=4'} alt="Styled-Component" />
+            </div>                          
+        </div>  
+        </Projetos>
         <Experiencias/>
         <Formacao>
-            <div className='container'>
-                <div className='cont'>
+            <div className='container'>                
                     <h1>Formação</h1> 
                     <div className='educacao'>                                          
                         <div className='escola'>                        
@@ -47,13 +61,14 @@ export function Home() {
                             <h3>Anhanguera Educacional</h3>                        
                             <h4>Análise e Dev. de Sistemas</h4>
                             <p>Cursando 2º Período 2022 - 2024</p>
-                                               
+                        </div> 
+                        <div className='escola'>                                                  
                             <img src={Betel} alt="" />
                             <h3>Centro Educacional Betel</h3>
                             <h4>Ensino médio - Téc. em Informática</h4>
                             <p>Concluído 2004 - 2006</p>
                         </div>
-                    </div>
+                   
                 </div>
                 <div className='habilidade'>
                 <h1>Habilidades</h1>
@@ -68,22 +83,7 @@ export function Home() {
             </div>
            
         </Formacao>
-        <Projetos>
-        <div className='trabalho'>                        
-                                <h4>Calculadora</h4>
-                                <div>
-                                    <img className='imgcalc' src={Calc} alt="" />
-                                </div>
-                                <h3>Link do deploy:<NavLink to="/home"></NavLink></h3>
-                                <h3>Link do Repositório:<NavLink to="/home"></NavLink></h3>
-                                <h4>Tecnologias Utilizadas</h4>
-                                <div className='tecnologia'>
-                                    <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg'} alt="React" />
-                                    <img className='tec' src={'https://avatars.githubusercontent.com/u/20658825?s=200&v=4'} alt="Styled-Component" />
-                                </div>                          
-                            </div>  
-
-        </Projetos>
+        
        
 
          

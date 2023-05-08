@@ -29,13 +29,12 @@ heigth:100%vh;
 margin-top:150px;
 
 .seta{
-    width:40px;
-    position:absolute;
-    top:27rem;
+    width:60px;
+    position:absolute;    
     right:0;
-    @media (min-width: 800px) {
-        top:500px;
-        width:60px;
+    top:500px;
+    @media (max-width: 500px) {
+        display:none;
     }
 }
 
@@ -72,7 +71,7 @@ p{
 }
 .perfil{
    
-    box-shadow:0px 0px 15px white;
+    box-shadow:0px 0px 15px #00d7ff;
     background-color: rgb(24,24,24);
     border-radius: 50%;
     margin:7px;
