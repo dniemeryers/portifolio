@@ -51,7 +51,7 @@ h3{
    
     display:flex;
     background-color:rgba(179,179,179,0.4);       
-    box-shadow: 0px 0px 20px #00d7ff;
+    box-shadow: 0px 0px 10px 5px #00d7ff;
     margin:auto;      
     flex-direction:column;
     

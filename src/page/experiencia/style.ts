@@ -5,6 +5,7 @@ display:flex;
 margin:auto;
 flex-direction:column;
 color: #BFBFBF;
+margin-bottom:20px;
 
 margin:35px;
 .social{

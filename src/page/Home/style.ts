@@ -89,6 +89,7 @@ padding-bottom:50px;
 margin:0px;
 
 h1{
+    color: #BFBFBF;
     margin-top:10px;
     color:white;
     text-align:center;
@@ -98,7 +99,7 @@ h1{
     
 }
 h3{
-    color:#BFBFBF;
+    color: #BFBFBF;
     margin-top:-18px;
     text-align:center;
     color:white;
@@ -368,16 +369,25 @@ p{
 `
 
 export const Projetos = styled.div`
-margin:20px;
+display:flex;
+flex-direction:column;
+margin:auto;
+width:100%;
+margin:0px;
+@media(min-width:800px){
+    margin:auto;
+    width:1100px;
+    flex-direction:row;
+}
 .trabalho{
     display:flex;
-    flex-direction:column;
-    padding:5px;
-    margin:20px;
+    flex-direction:column;    
+    margin:35px;
     margin-bottom:5px;
     color: #BFBFBF;
     text-align:center;
-    border-radius:10px;
+    box-shadow: 0px 0px 10px 5px #00d7ff;
+  
     
     background-color:rgba(179,179,179,0.4);  
     @media(min-width:800px){
