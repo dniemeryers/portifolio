@@ -1,6 +1,8 @@
 import styled from "styled-components"; 
 
 export const H1 = styled.h1`
+margin-top:100px;
+margin-bottom:40px;
 color: #BFBFBF;
 text-align:center;
 `
@@ -26,14 +28,14 @@ h2{
     flex-direction:column;
     padding:5px;
     margin:5px;
-    margin-bottom:5px;
+    margin-bottom:40px;
     color: #BFBFBF;
     text-align:center;
-    border-radius:10px;
     background-color:rgba(179,179,179,0.4);  
+    box-shadow: 0px 0px 10px 5px #00d7ff;
     @media(min-width:800px){
-        width:300px;
-        height:450px;
+        width:250px;
+        height:410px;
     } 
        
 }
@@ -80,11 +82,11 @@ h2{
     margin-bottom:20px;
     color: #BFBFBF;
     text-align:center;
-    border-radius:10px;
+    box-shadow: 0px 0px 10px 5px #00d7ff;
     background-color:rgba(179,179,179,0.4);  
     @media(min-width:800px){
         width:300px;
-        height:450px;
+        height:410px;
     } 
        
 }
