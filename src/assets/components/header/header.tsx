@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 
 import { SocialIcon } from "react-social-icons"
 import Foto from '../../img/perfil-diego.png'
+import PDF from '../../img/pdf.png'
 
 
 export function Header() {
@@ -53,7 +54,7 @@ export function Header() {
           <NavLink className={'navlink'} to="/projetos">Projetos</NavLink>
           <NavLink className={'navlink'} to="/experiencia">Experiências</NavLink>
           
-          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><input type="submit" className="button" value="Curriculo"/></NavLink>
+          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><div className="button" ><p className='curriculo'>CURRICULO</p><img className="perfil" src={PDF} width="20px" height='20px;' alt="" /></div></NavLink>
         </div>
       </div>
     </Container>

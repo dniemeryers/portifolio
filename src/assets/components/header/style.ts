@@ -11,24 +11,32 @@ color:#BFBFBF;
 justify-content:space-betweem;
 width:100%;
 
-.button {
-  
-  width: 100px;
-  height: 30px;
-  border-radius: 4px;
+.button {  
+  margin-top:12px;
   padding:0;
-  margin-top:-5px;;
-  border: 0;
+  display:flex;
+  width: 120px;
+  height: 30px;    
+ 
+  text-align:center;
   color: #fff;
-  cursor: pointer;
   background-color: gray;
-  font-size: 16px;
-  box-shadow: 0px 0px 5px 3px #00d7ff;
-  transition: background-color, transform 0.8s;
+  font-size:12px;
+  box-shadow: 0px 0px 6px 3px #00d7ff;
+
   &:hover {
     scale:1.2;
     transform: scale(1.01);
   }
+  .curriculo{
+    display:flex;
+    margin:auto;
+    font-weight:bold;
+ }
+ img{
+  margin:auto;
+  margin-left:-10px;
+}
 }
 h1{
   margin:15px;
@@ -41,13 +49,14 @@ h1{
    
    justify-content:space-between;
    margin:0 40px 0px 0;
+   
 
      
 }
 
 .links-desktop{
-  
-  margin:20px 0 0 20px;
+  display:flex;
+  margin:0px 0 0 20px;
 
 
   @media (max-width: 800px) {
