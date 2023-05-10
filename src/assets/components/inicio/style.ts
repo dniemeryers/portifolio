@@ -34,24 +34,22 @@ margin-top:150px;
     display:flex;
     width: 200px;
     height: 70px;    
-    border-radius: 4px;       
     margin:auto;
+    text-align:center;
     border: 0;
     color: #fff;
+    padding: 5px 10px;
     background-color: gray;
-    font-size: 19px;
+    font-size: 15px;
     box-shadow: 0px 0px 6px 3px #00d7ff;
-   
-    &:hover {
-      scale:1.2;
-      transform: scale(1.01);
-    }
+    
     @media (min-width: 800px) {
         display:none;
     }
   }
   a{
     text-decoration:none; 
+    text-align:center;
     color:white;
 }
 
