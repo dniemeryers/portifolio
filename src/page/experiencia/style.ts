@@ -2,14 +2,11 @@ import styled from "styled-components";
 
 export const Experiencia = styled.div`
 display:flex;
-margin:auto;
 flex-direction:column;
 color: #BFBFBF;
 padding-bottom:20px;
 
 
-
-margin:35px;
 .social{
     padding-top:30px;
     display:flex;
@@ -30,62 +27,50 @@ h2{
         text-align:start;
     }
 }
-h3{
-   
+h3{   
     margin-bottom:-10px;
 }
-h4{
-    
-   
+h4{  
     margin-bottom:-10px;
 }
-p{
-    
-    margin-bottom:-10px;
-   
+p{   
+    margin-bottom:-10px;   
     padding-top:0;
 }
 .container{
+    margin:35px;
     display:flex;
     flex-direction:column;    
     padding-top:20px;
     background-color:rgba(179,179,179,0.4);  
     box-shadow: 0px 0px 10px 5px #00d7ff;
 
-    @media(min-width: 800px){
-        width:1100px;
+    @media(min-width: 800px){      
+        width:790px;  
         display:flex;
         margin:auto;
         padding:20px;               
         flex-direction:row;
        
-    }
-
-    @media(min-width:1024px){
-        width:720px;
-    }
+    }  
 
 }
 .container1{
     display:flex;    
     flex-direction:column;
-    margin:auto;
-    
-   
-   
+    margin:auto;  
 }
+
 .container2{
     display:flex;
     margin:20px;
-    flex-direction:column;   
-    
-   
+    flex-direction:column;    
 }
 
-img{
-    
+img{    
     margin:auto;
     border-radius:12px;
+
     @media(min-width: 800px){
         width:250px;
     }

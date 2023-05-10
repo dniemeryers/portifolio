@@ -41,19 +41,12 @@ h1{
        
     
     @media(min-width: 800px){
-
         width:850px;
         justify-content:space-evenly;
     }
-
-   
-    
-    
-    
-    
 }
-.skill{
-    
+
+.skill{    
     display:flex;    
     width:40px;
     height:40px;
@@ -421,12 +414,9 @@ margin:0px;
 
 @media(min-width:800px){
     margin:auto;
-    width:1100px;
+    justify-content:space-between;
+    width:900px;
     flex-direction:row;
-}
-
-@media(min-width:1024px){
-    width:800px;
 }
 
 
