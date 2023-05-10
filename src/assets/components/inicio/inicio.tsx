@@ -1,6 +1,7 @@
 import {Container, Social} from './style';
 import { SocialIcon } from "react-social-icons";
 import Foto from '../../img/perfildiego2.png';
+import PDF from '../../img/pdf.png'
 import {Header} from '../header/header'
 
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
@@ -59,7 +60,7 @@ export function Inicio() {
     >
       <NavLink to="/#sobre"><img className="seta" src={Seta} alt="" /></NavLink>
     </motion.div>
-    <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><div className="button" ><p className='curriculo'>CURRICULO EM PDF</p></div></NavLink>
+    <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><div className="button" ><p className='curriculo'>CURRICULO</p><img className="perfil" src={PDF} width="30px" height='30px;' alt="" /></div></NavLink>
     </Container>
     <Social>
             <SocialIcon className='social-icon' url="https://www.linkedin.com/in/diego-niemeyer/"

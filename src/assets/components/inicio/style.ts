@@ -28,7 +28,11 @@ export const Container = styled.div`
 color: #BFBFBF;
 heigth:100%vh;
 margin-top:150px;
-margin-bottom:-200px;
+margin-bottom:-100px;
+
+@media (min-width: 800px) {
+    margin-botton:50px;
+}
 
 .button {  
     display:flex;
@@ -46,6 +50,11 @@ margin-bottom:-200px;
         display:none;
     }
   }
+img{
+   
+    margin:auto;
+    margin-left:-10px;
+}
   a{
     text-decoration:none; 
     text-align:center;
