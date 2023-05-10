@@ -15,6 +15,7 @@ padding-top:50px;
 padding-bottom:-30px;
 
 `
+
 export const Habilidade = styled.div`
 margin:35px;
 

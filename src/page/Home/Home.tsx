@@ -31,6 +31,7 @@ export function Home() {
                         <p>Por meio do uso de tecnologias inovadoras, metodologias ágeis e boas práticas de desenvolvimento, garanto que meu trabalho será de alta qualidade. Além disso, acredito que a transparência, comunicação e a colaboração são fundamentais para o sucesso de qualquer projeto, mantendo sempre uma comunicação clara e efetiva com todos no processo de desenvolvimento.</p>
                     </div> 
         </Sobre>
+        
         <Habilidade>
         <div className='habilidade'>
                 <h1>Habilidades</h1>

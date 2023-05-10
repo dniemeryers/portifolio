@@ -18,6 +18,7 @@ export const Social = styled.div`
     }
     @media (min-width: 800px) {
         margin-left:20px;
+
     }
     
 `
@@ -27,6 +28,32 @@ export const Container = styled.div`
 color: #BFBFBF;
 heigth:100%vh;
 margin-top:150px;
+
+.button {  
+    
+    display:flex;
+    width: 200px;
+    height: 70px;    
+    border-radius: 4px;       
+    margin:auto;
+    border: 0;
+    color: #fff;
+    background-color: gray;
+    font-size: 19px;
+    box-shadow: 0px 0px 6px 3px #00d7ff;
+   
+    &:hover {
+      scale:1.2;
+      transform: scale(1.01);
+    }
+    @media (min-width: 800px) {
+        display:none;
+    }
+  }
+  a{
+    text-decoration:none; 
+    color:white;
+}
 
 .seta{
     width:60px;
