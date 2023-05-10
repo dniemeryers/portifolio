@@ -12,6 +12,10 @@ display:flex;
 flex-direction:column;
 margin:auto;
 
+@media(min-width:1024px){
+    
+}
+
 
 .educacao{      
     
@@ -32,8 +36,10 @@ margin:auto;
         margin:auto;
         margin-top:10px;
         justify-content:space-around; 
-        
-        
+           
+    }
+    @media(min-width:1024px){
+        width:720px;
     }
     
 }
@@ -92,11 +98,16 @@ img{
     padding:20px;
     display:flex;
     flex-direction:column;
+
     @media(min-width:800px){
         width:1100px;
         margin:auto;
         margin-top: 35px;
         flex-direction:column; 
+    }
+
+    @media(min-width:1024px){
+        width:900px;
     }
 }
 .certificados2{
@@ -117,6 +128,10 @@ img{
         justify-content:space-around;
         
     }
+
+    @media(min-width:1024px){
+        width:900px;
+    }
     
        
                   
@@ -130,12 +145,12 @@ img{
     width:200px;
     box-shadow:0px 0px 10px 5px black;
    
-    @media(max-width:800px){
-        
+    @media(max-width:800px){        
     &:hover{
         scale:1.9;
     }
-}
+    } 
+
     @media(min-width:800px){
         
         &:hover{
@@ -147,11 +162,14 @@ img{
             top: 550px;
             left: 0;
             right: 0;
-            bottom: 0;        
-
+            bottom: 0;
         }
     }
+    @media(min-width:1024px){
+        width:150px;
+    }
 }
+    
 .certlinha2{
     display:flex;
     margin:auto;
@@ -177,6 +195,9 @@ img{
             bottom: 0;        
 
         }
+    }
+    @media(min-width:1024px){
+        width:150px;
     }
 }
 

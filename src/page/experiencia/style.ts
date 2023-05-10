@@ -7,6 +7,8 @@ flex-direction:column;
 color: #BFBFBF;
 padding-bottom:20px;
 
+
+
 margin:35px;
 .social{
     padding-top:30px;
@@ -57,6 +59,10 @@ p{
         padding:20px;               
         flex-direction:row;
        
+    }
+
+    @media(min-width:1024px){
+        width:720px;
     }
 
 }

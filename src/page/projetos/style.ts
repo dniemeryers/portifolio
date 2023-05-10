@@ -33,18 +33,30 @@ h2{
     text-align:center;
     background-color:rgba(179,179,179,0.4);  
     box-shadow: 0px 0px 10px 5px #00d7ff;
+
     @media(min-width:800px){
         width:250px;
         height:410px;
+    }
+    @media(min-width:1024px){
+        width:200px;
     } 
        
 }
 .imgcalc{
     height:160px;
+    @media(min-width:1024px){
+        width:150px;
+        height:200px;
+    }
 }
 .imgpc{
     height:200px;
-}
+
+    @media(min-width:1024px){
+        width:130px;
+    }
+    }
 h3{
     margin-top:10px;
     margin-bottom:5px;
@@ -84,18 +96,30 @@ h2{
     text-align:center;
     box-shadow: 0px 0px 10px 5px #00d7ff;
     background-color:rgba(179,179,179,0.4);  
-    @media(min-width:800px){
-        width:300px;
+
+    @media(min-width:800px) and (max-width:1023px)  {
+        width:500px;
         height:410px;
-    } 
+    }
+
+    @media(min-width:1024px){
+        width:200px;
+    }
        
 }
 .imgcalc{
     height:160px;
+   
+    
+    
 }
+
 .imgpc{
     height:200px;
     width:280px;
+    @media(min-width:1024px){
+        width:180px;
+    }
 }
 h3{
     margin-top:10px;
