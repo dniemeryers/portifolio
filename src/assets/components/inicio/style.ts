@@ -41,7 +41,10 @@ margin-top:150px;
     padding: 5px 10px;
     background-color: gray;
     font-size: 15px;
-    box-shadow: 0px 0px 6px 3px #00d7ff;
+    webkit-appearance: none;
+    border-radius: 1px;
+    -webkit-box-shadow: 0px 0px 6px 3px #00d7ff;
+    -moz-box-shadow: 0px 0px 6px 3px #00d7ff;
     
     @media (min-width: 800px) {
         display:none;
