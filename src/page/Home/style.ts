@@ -225,36 +225,27 @@ display:flex;
 margin-top:100px;
 flex-direction:column;
 padding-bottom:40px;
-@media (min-width: 800px) {
-    
-}
 
 }
 
 
-.educacao{      
-    
+.educacao{  
     display:flex;
     flex-direction:column;
     margin:0 35px 0 35px;
     background-color:rgba(179,179,179,0.4);
     box-shadow: 0px 0px 10px 5px #00d7ff;
         
-    
     @media(min-width: 800px){
-        width:1100px;
+        width:790px;
         display:flex;
         flex-direction:row;
         padding:20px;
         margin:auto;
         margin-top:10px;
-        justify-content:space-around;         
-        
+        justify-content:space-around;           
     }
-
-    @media(min-width:1024px){
-        width:720px;
-    }
+   
     
 }
 .escola{       
