@@ -28,23 +28,19 @@ export const Container = styled.div`
 color: #BFBFBF;
 heigth:100%vh;
 margin-top:150px;
+margin-bottom:-200px;
 
 .button {  
-    
     display:flex;
     width: 200px;
-    height: 70px;    
+    height: 50px;    
     margin:auto;
+    margin-top:80px;
     text-align:center;
-    border: 0;
     color: #fff;
-    padding: 5px 10px;
     background-color: gray;
-    font-size: 15px;
-    webkit-appearance: none;
-    border-radius: 1px;
-    -webkit-box-shadow: 0px 0px 6px 3px #00d7ff;
-    -moz-box-shadow: 0px 0px 6px 3px #00d7ff;
+    font-size:18px;
+    box-shadow: 0px 0px 6px 3px #00d7ff;
     
     @media (min-width: 800px) {
         display:none;
@@ -54,6 +50,10 @@ margin-top:150px;
     text-decoration:none; 
     text-align:center;
     color:white;
+}
+.curriculo{
+   margin:auto;
+   font-weight:bold;
 }
 
 .seta{

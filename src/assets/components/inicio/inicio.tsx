@@ -59,7 +59,7 @@ export function Inicio() {
     >
       <NavLink to="/#sobre"><img className="seta" src={Seta} alt="" /></NavLink>
     </motion.div>
-    <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><input type="submit" className="button" value="CURRICULO EM PDF"/></NavLink>
+    <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><div className="button" ><p className='curriculo'>CURRICULO EM PDF</p></div></NavLink>
     </Container>
     <Social>
             <SocialIcon className='social-icon' url="https://www.linkedin.com/in/diego-niemeyer/"
