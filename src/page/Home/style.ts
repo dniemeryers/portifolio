@@ -411,6 +411,11 @@ margin:0px;
     flex-direction:row;
 }
 
+a{
+    text-decoration:none;
+    color: #BFBFBF;
+}
+
 
 .trabalho{
     
@@ -434,7 +439,7 @@ margin:0px;
        
 }
 .imgcalc{
-    height:160px;
+    height:180px;
     @media(min-width:1024px){
     height:130px;
     }

@@ -10,6 +10,7 @@ import {Experiencias} from '../../page/experiencia/Experiencia'
 import { NavLink } from 'react-router-dom';
 
 import Calc from '../../assets/img/projetos/calc.gif'
+import Org from '../../assets/img/projetos/organizar-os-estudos.gif'
 
 
 
@@ -48,12 +49,12 @@ export function Home() {
         <H2>Projetos</H2>
         <Projetos>
         <div className='trabalho'>                        
-            <h4>Calculadora</h4>
+            <h4>Organizar Estudos</h4>
             <div>
-                <img className='imgcalc' src={Calc} alt="" />
+                <img className='imgcalc' src={Org} height='30px' width='220px'  alt="" />
             </div>
-            <h3>Link do deploy:<NavLink to="/home"></NavLink></h3>
-            <h3>Link do Repositório:<NavLink to="/home"></NavLink></h3>
+            <NavLink to='https://organizar-os-estudos.vercel.app/' target={"_blank"}><h3>&gt; Link do deploy &lt;</h3></NavLink>
+            <NavLink to="https://github.com/dniemeryers/organizar-os-estudos" target={"_blank"}><h3>&gt; Link do repositório &lt;</h3></NavLink>
             <h4>Tecnologias Utilizadas</h4>
             <div className='tecnologia'>
                 <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg'} alt="React" />
@@ -65,8 +66,8 @@ export function Home() {
             <div>
                 <img className='imgcalc' src={Calc} alt="" />
             </div>
-            <h3>Link do deploy:<NavLink to="/home"></NavLink></h3>
-            <h3>Link do Repositório:<NavLink to="/home"></NavLink></h3>
+            <NavLink to='https://dniemeryers.github.io/trilha-react-desafio01-calculadora/' target={"_blank"}><h3>&gt; Link do deploy &lt;</h3></NavLink>
+            <NavLink to="https://github.com/dniemeryers/trilha-react-desafio01-calculadora" target={"_blank"}><h3>&gt; Link do repositório &lt;</h3></NavLink>
             <h4>Tecnologias Utilizadas</h4>
             <div className='tecnologia'>
                 <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg'} alt="React" />
@@ -75,16 +76,17 @@ export function Home() {
         </div>
        
         <div className='trabalho'>                        
-            <h4>Calculadora</h4>
+            <h4>Lista de tarefas</h4>
             <div>
-                <img className='imgcalc' src={Calc} alt="" />
+                <img className='imgcalc' width='200px' height='170px;' src='https://github.com/dniemeryers/lista-de-tarefa/raw/main/img/pc.gif' alt="" />
             </div>
-            <h3>Link do deploy:<NavLink to="/home"></NavLink></h3>
-            <h3>Link do Repositório:<NavLink to="/home"></NavLink></h3>
+            <NavLink to='https://dniemeryers.github.io/lista-de-tarefa/' target={"_blank"}><h3>&gt; Link do deploy &lt;</h3></NavLink>
+            <NavLink to="https://github.com/dniemeryers/lista-de-tarefa"target={"_blank"}><h3>&gt; Link do repositório &lt;</h3></NavLink>
             <h4>Tecnologias Utilizadas</h4>
             <div className='tecnologia'>
-                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg'} alt="React" />
-                <img className='tec' src={'https://avatars.githubusercontent.com/u/20658825?s=200&v=4'} alt="Styled-Component" />
+                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg'} alt="HTML" />
+                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg'} alt="CSS" />
+                <img className='tec' src='https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg' alt='jacascript'/>
             </div>                          
         </div>    
         </Projetos>
