@@ -41,10 +41,10 @@ margin-bottom:-100px;
     margin:auto;
     margin-top:80px;
     text-align:center;
-    color: #fff;
-    background-color: gray;
+    color: white;
+    background-color:rgba(179,179,179,0.4);  
     font-size:18px;
-    box-shadow: 0px 0px 6px 3px #00d7ff;
+    box-shadow: 0px 0px 10px 5px #00d7ff;
     
     @media (min-width: 800px) {
         display:none;
