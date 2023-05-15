@@ -438,8 +438,14 @@ a{
     }
        
 }
+.imgorg{
+    height:180px;
+    width:300px;
+}
 .imgcalc{
     height:180px;
+
+    
     @media(min-width:1024px){
     height:130px;
     }
