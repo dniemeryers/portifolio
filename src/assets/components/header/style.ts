@@ -20,9 +20,9 @@ width:100%;
  
   text-align:center;
   color: #fff;
-  background-color: gray;
   font-size:12px;
-  box-shadow: 0px 0px 6px 3px #00d7ff;
+  background-color:rgba(179,179,179,0.4);
+  box-shadow: 0px 0px 10px 5px #00d7ff;
 
   &:hover {
     scale:1.2;
