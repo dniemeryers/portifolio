@@ -51,7 +51,7 @@ export function Home() {
         <div className='trabalho'>                        
             <h4>Organizar Estudos</h4>
             <div>
-                <img className='imgorg' src={Org} height='30px' width='220px'  alt="" />
+                <img className='imgorg' src={Org}   alt="" />
             </div>
             <NavLink to='https://organizar-os-estudos.vercel.app/' target={"_blank"}><h3>&gt; Link do deploy &lt;</h3></NavLink>
             <NavLink to="https://github.com/dniemeryers/organizar-os-estudos" target={"_blank"}><h3>&gt; Link do repositório &lt;</h3></NavLink>
