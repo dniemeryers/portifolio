@@ -13,7 +13,7 @@ export function Experiencias() {
     <h1>Experiência</h1>   
     <div className='container'>        
         <div className='container1'>
-            <img src="https://media.licdn.com/dms/image/C4D0BAQH94aQSIHZPNA/company-logo_200_200/0/1649874998369?e=1691020800&v=beta&t=dTTNIAmrAx_XhEC2wihhYkeQwA_5v-l9j_IQh4tON9s" alt="" />
+            <img src="https://media.licdn.com/dms/image/C4D0BAQH94aQSIHZPNA/company-logo_200_200/0/1649874998369?e=1699488000&v=beta&t=C_8i6_EoWodbwdpbjBqsNiEtaHX3mCo1M4oSvlh486I" alt="" />
         </div>
         <div className='container2'>
             <h2>Desenvolvedor Front-End</h2>

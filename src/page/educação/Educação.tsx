@@ -26,7 +26,7 @@ export function Educacao(){
                 <img src={Anhanguera} alt="" />
                 <h3>Anhanguera Educacional</h3>                        
                 <h4>CST- Análise e Dev. de Sistemas</h4>
-                <p>Cursando 2º Período 2022 - 2024</p>
+                <p>Cursando 3º Período 2022 - 2024</p>
             </div>
             <div className='escola'>
                 <img src={Betel} alt="" />
