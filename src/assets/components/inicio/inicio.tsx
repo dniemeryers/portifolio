@@ -16,28 +16,20 @@ export function Inicio() {
     
     const [text, count] = useTypewriter({
         words: [
-            "Developer",
-            "Front-End"            
+            "Jesus Cristo",
+            "É o Senhor"            
         ],
         loop: true,
         delaySpeed: 2000,
     });
 
     return(
-        <>
-        
-         
-       
-        <Container>   
-       
-            
-           
+        <>      
+        <Container>       
             <div className='bio'>
                 <div className="imgs">                    
                     <img className="perfil" src={Foto} width="250px" alt="" />
-                    
                     <h1>{text}<Cursor cursorColor='#BFBFBF' /></h1>
-                   
                 </div>                        
             </div>
      

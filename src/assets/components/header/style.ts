@@ -4,12 +4,20 @@ import styled from "styled-components";
 export const Container = styled.div`
 position:fixed;
 top:0;
-background-color: rgb(24,24,24);
-box-shadow: 0px 0px 10px 5px #00d7ff;
+background-color:white;
+box-shadow: 0px 0px 10px 5px #454546 ;
 z-index:1;
-color:#BFBFBF;
+color:black;
 justify-content:space-betweem;
 width:100%;
+
+.logo {
+  display:flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
 
 .button {  
   margin-top:12px;
@@ -19,10 +27,10 @@ width:100%;
   height: 30px;    
  
   text-align:center;
-  color: #fff;
+  color:black;
   font-size:12px;
-  background-color:rgba(179,179,179,0.4);
-  box-shadow: 0px 0px 10px 5px #00d7ff;
+  background-color: #272727;
+  box-shadow: 0px 0px 10px 5px #454546 ;
 
   &:hover {
     scale:1.2;
@@ -33,38 +41,33 @@ width:100%;
     margin:auto;
     font-weight:bold;
  }
- img{
-  margin:auto;
-  margin-left:-10px;
+ 
 }
 }
 h1{
-  margin:15px;
+  margin-left:15px;
+  margin-top:11px;
   font-size:1.5rem;
   
 }
 
 .icons{
-   display:flex;
-   
+   display:flex;   
    justify-content:space-between;
-   margin:0 40px 0px 0;
-   
-
-     
+   margin:0 40px 0px 0;     
 }
 
 .links-desktop{
   display:flex;
   margin:0px 0 0 20px;
 
-
   @media (max-width: 800px) {
     display:none;
     }
 }
+
 .navlink{
-  color:#BFBFBF;
+  color:black;
   font-weight:bold;
   margin:20px 20px 10px 0;
   font-size:1rem;
@@ -81,20 +84,20 @@ a{
     }
 }
 .menu{
-    width:0px;
+  margin-top: 8px;
+     margin-right: 10px;
+     width:0px;
     @media (min-width: 800px) {
       display:none;
-      }
-    
+      }    
 }
-
 
 .container{
     width:100%;
     height: 100%;
-    display: flex;
-    
+    display: flex;    
   }
+
 #checkbox-menu{
   display:flex;
     padding:0;
@@ -115,10 +118,10 @@ a{
   label span{
     position: absolute;
     display: block;
-    height: 5px;
+    height: 4px;
     width: 100%;
     border-radius: 30px;
-    background: #BFBFBF;
+    background: black;
     transition: 0.25s ease-in-out;
   }
   
@@ -162,7 +165,7 @@ a{
 }
 `
 export const Container2 = styled.div`
-color:#BFBFBF;
+color:black;
 heigth:500px;
 
 .perfil{
@@ -174,10 +177,10 @@ h3{
   text-align:center;
 }
 a{
-  color:#BFBFBF;
+  color:black;
   text-decoration:none;
   font-weight:bold;
-  font-size: 18px;
+  font-size: 28px;
   display:flex;
   justify-content:left;
   padding:10px 0 10px 0;
@@ -187,18 +190,21 @@ a{
 }
 
 .nav{
-  height:550px;
+  height:450px;
   width:95%;  
-  margin-top:-500px;
+  margin-top:-425px;
   
   display:flex;
   flex-direction:colunm;
   font-size:1rem;   
   padding:10px; 
-  background-color: rgb(24,24,24);
-  transition: transform 2s ease-in-out;
-  
-    
+  background-color: white;
+  transition: transform 2s ease-in-out;    
+}
+.nav .child{
+  padding-left: 30px;
+  color: #454546;
+  font-size: 22px;
 }
 img{
   display:flex;

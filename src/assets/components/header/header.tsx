@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 
 import { SocialIcon } from "react-social-icons"
 import Foto from '../../img/perfil-diego.png'
+import LogoIcnv from '../../img/logo icnv.png'
 import PDF from '../../img/pdf.png'
 
 
@@ -16,13 +17,13 @@ export function Header() {
 
   function handleMenuClick() {
     setIsMenuOpen(!isMenuOpen);
-  }
-
-  
+  }  
 
   return (<>
     <Container style={{zIndex: '3'}}  >
       <div className="icons">
+      <div className='logo'>
+      <img className="perfil" src={LogoIcnv} width="60px" height="50px" alt="" />
       <motion.div
              initial={{
                 x: 1500,
@@ -36,9 +37,10 @@ export function Header() {
              }}
              transition={{
                 duration: 2.5,
-             }}>
-        <h1>Diego Niemeyer</h1>
+             }}>          
+          <h1>ICNV Cerâmica</h1>       
         </motion.div>
+        </div>
         <div className="menu">
           <input type="checkbox" id="checkbox-menu"  checked={isMenuOpen} onChange={handleMenuClick} />
           <label style={{zIndex: '1'}} htmlFor="checkbox-menu">
@@ -48,13 +50,13 @@ export function Header() {
           </label>
         </div>
         <div className='links-desktop'>
-          <NavLink className={'navlink'} to="/home">Home</NavLink>
-          <NavLink className={'navlink'} to="/sobre">Sobre</NavLink>
-          <NavLink className={'navlink'} to="/educacao">Formação</NavLink>
+          <NavLink className={'navlink'} to="/home">Programação</NavLink>
+          <NavLink className={'navlink'} to="/sobre"></NavLink>
+          <NavLink className={'navlink'} to="/educacao"></NavLink>
           <NavLink className={'navlink'} to="/projetos">Projetos</NavLink>
           <NavLink className={'navlink'} to="/experiencia">Experiências</NavLink>
           
-          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><div className="button" ><p className='curriculo'>CURRICULO</p><img className="perfil" src={PDF} width="20px" height='20px;' alt="" /></div></NavLink>
+          <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><div className="button" ><p className='curriculo'>CURRICULO</p></div></NavLink>
         </div>
       </div>
     </Container>
@@ -88,28 +90,30 @@ export function Header() {
         display: isMenuOpen ? 'block' : 'none',
         
         }}>
-        <img className="perfil" src={Foto} width="100px" alt="" />            
-        <NavLink to="/home">Home</NavLink>
-        <NavLink to="/sobre">Sobre</NavLink>
-        <NavLink to="/educacao">Formação</NavLink>
-        <NavLink to="/projetos">Projetos</NavLink>
-        <NavLink to="/experiencia">Experiências</NavLink>             
-        <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}>Curriculo</NavLink>
+
+        <h1>Igreja</h1>       
+        <NavLink className="child" to="/home">Quem Somos</NavLink>
+        <NavLink className="child" to="/sobre">Onde Estamos</NavLink>
+        <NavLink className="child" to="/educacao">Liderança</NavLink>
+        <NavLink to="/projetos">Programação</NavLink>
+        <NavLink to="/experiencia">Contatos</NavLink>
+        <NavLink to="/experiencia">Doação</NavLink>
+        
         <Social>
-          <SocialIcon className='ic' url="https://www.linkedin.com/in/diego-niemeyer/"
-            fgColor='#BFBFBF'
+          <SocialIcon className='ic' url="https://www.instagram.com/icnvceramica/"
+            fgColor='black'
             bgColor='transparent'
             target={"_blank"}/>
-          <SocialIcon className='ic' url="https://github.com/dniemeryers"
-            fgColor='#BFBFBF'
+          <SocialIcon className='ic' url="https://www.youtube.com/channel/UCMsoMi0lmy4jjGTDljr47tg"
+            fgColor='black'
             bgColor='transparent'
             target={"_blank"}/>
           <SocialIcon url="mailto:dniemeyers@gmail.com"
-              fgColor='#BFBFBF'
+              fgColor='black'
               bgColor='transparent'
               target={"_blank"}/>    
           <SocialIcon className='ic' url="https://api.whatsapp.com/send?phone=5521974112744"
-            fgColor='#BFBFBF'
+            fgColor='black'
             bgColor='transparent'
             target={"_blank"}/>     
         </Social>               
