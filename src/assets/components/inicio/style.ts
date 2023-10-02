@@ -50,10 +50,11 @@ margin-bottom:-100px;
         display:none;
     }
   }
-img{   
+img{
+   
     margin:auto;
+    margin-left:-10px;
 }
-
   a{
     text-decoration:none; 
     text-align:center;
@@ -74,47 +75,45 @@ img{
     }
 }
 
-h1{   
+h1{
+    
     font-size:2.8em;
     text-align:center;
     padding:0px;
     margin-top:30px;
 }
-
 h2{
     font-size:1.8em;
    
     color: #BFBFBF;
     text-align:center;
 }
-
 .bio{
     width:100%;
     display:flex;
-}
     
 .imgs{
    padding-top:10px;
-   margin:auto;   
+   margin:auto;
+   
 }
-
 .icons{
     margin:7px;
-    display:flex;    
+    display:flex;
+    
 }
-
 p{
     margin:0px;
     margin-left:4px;
 }
-
-.perfil{   
+.perfil{
+   
     box-shadow: 0px 0px 10px 5px #00d7ff;
     background-color: rgb(24,24,24);
+    border-radius: 50%;
     margin:7px;
     width:250px;
 }
-
 .sobre{
     text-indent: 10%;
     text-align:justify;

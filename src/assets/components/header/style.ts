@@ -4,20 +4,12 @@ import styled from "styled-components";
 export const Container = styled.div`
 position:fixed;
 top:0;
-background-color:white;
-box-shadow: 0px 0px 10px 5px #454546 ;
+background-color: rgb(24,24,24);
+box-shadow: 0px 0px 10px 5px #00d7ff;
 z-index:1;
-color:black;
+color:#BFBFBF;
 justify-content:space-betweem;
 width:100%;
-
-.logo {
-  display:flex;
-  flex-direction: row;
-  margin-left: 15px;
-  margin-top: 10px;
-}
-
 
 .button {  
   margin-top:12px;
@@ -27,10 +19,10 @@ width:100%;
   height: 30px;    
  
   text-align:center;
-  color:black;
+  color: #fff;
   font-size:12px;
-  background-color: #272727;
-  box-shadow: 0px 0px 10px 5px #454546 ;
+  background-color:rgba(179,179,179,0.4);
+  box-shadow: 0px 0px 10px 5px #00d7ff;
 
   &:hover {
     scale:1.2;
@@ -41,33 +33,38 @@ width:100%;
     margin:auto;
     font-weight:bold;
  }
- 
+ img{
+  margin:auto;
+  margin-left:-10px;
 }
 }
 h1{
-  margin-left:15px;
-  margin-top:11px;
+  margin:15px;
   font-size:1.5rem;
   
 }
 
 .icons{
-   display:flex;   
+   display:flex;
+   
    justify-content:space-between;
-   margin:0 40px 0px 0;     
+   margin:0 40px 0px 0;
+   
+
+     
 }
 
 .links-desktop{
   display:flex;
   margin:0px 0 0 20px;
 
+
   @media (max-width: 800px) {
     display:none;
     }
 }
-
 .navlink{
-  color:black;
+  color:#BFBFBF;
   font-weight:bold;
   margin:20px 20px 10px 0;
   font-size:1rem;
@@ -84,20 +81,20 @@ a{
     }
 }
 .menu{
-  margin-top: 8px;
-     margin-right: 10px;
-     width:0px;
+    width:0px;
     @media (min-width: 800px) {
       display:none;
-      }    
+      }
+    
 }
+
 
 .container{
     width:100%;
     height: 100%;
-    display: flex;    
+    display: flex;
+    
   }
-
 #checkbox-menu{
   display:flex;
     padding:0;
@@ -118,10 +115,10 @@ a{
   label span{
     position: absolute;
     display: block;
-    height: 4px;
+    height: 5px;
     width: 100%;
     border-radius: 30px;
-    background: black;
+    background: #BFBFBF;
     transition: 0.25s ease-in-out;
   }
   
@@ -165,7 +162,7 @@ a{
 }
 `
 export const Container2 = styled.div`
-color:black;
+color:#BFBFBF;
 heigth:500px;
 
 .perfil{
@@ -177,10 +174,10 @@ h3{
   text-align:center;
 }
 a{
-  color:black;
+  color:#BFBFBF;
   text-decoration:none;
   font-weight:bold;
-  font-size: 28px;
+  font-size: 18px;
   display:flex;
   justify-content:left;
   padding:10px 0 10px 0;
@@ -190,21 +187,18 @@ a{
 }
 
 .nav{
-  height:450px;
+  height:550px;
   width:95%;  
-  margin-top:-425px;
+  margin-top:-500px;
   
   display:flex;
   flex-direction:colunm;
   font-size:1rem;   
   padding:10px; 
-  background-color: white;
-  transition: transform 2s ease-in-out;    
-}
-.nav .child{
-  padding-left: 30px;
-  color: #454546;
-  font-size: 22px;
+  background-color: rgb(24,24,24);
+  transition: transform 2s ease-in-out;
+  
+    
 }
 img{
   display:flex;
