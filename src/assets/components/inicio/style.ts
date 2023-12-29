@@ -83,7 +83,7 @@ img{
 
 h1{
     
-    font-size:2.6em;
+    font-size:2.2em;
     text-align:center;
     padding:0px;
     margin-top:0px;
