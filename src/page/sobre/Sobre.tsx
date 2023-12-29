@@ -1,6 +1,6 @@
 import{Header} from '../../assets/components/header/header'
-import Foto from '../../assets/img/perfil-diego.png'
-import {Container,H1} from './style'
+import Foto from '../../assets/img/perfilsobre.png'
+import {Container} from './style'
 
 
 
@@ -10,23 +10,25 @@ export function Sobre() {
 
     return(<>
 <Header/>
-<H1>Sobre</H1>
 <Container>      
-<div className='sobre'>
-
+<h1 className='sobremim'>SOBRE MIM</h1>
+<p className='nome'>Eu sou Diego Niemeyer</p>
 <div className='emprego'>
+    
     <div className='info'>
        <img src={Foto} width='200px' alt="" />
-       <h1>Diego Niemeyer</h1>
-       <h3>Desenvolvedor Front-End</h3>
-
+       <div className='decoracao1'></div>
+       <div className='decoracao2'></div>
+       <div className='decoracao3'></div>
+     
     </div>
     <div className='texto'>
-        <p>Olá meu nome é Diego Niemeyer e estou estudando desenvolvimento front-end,<strong> minha meta é ajudar empresas a alcançar seus objetivos através do desenvolvimento tecnológico, fornecendo soluções personalizadas e de alta qualidade para seus problemas.</strong></p>
-        <p>Por meio do uso de tecnologias inovadoras, metodologias ágeis e boas práticas de desenvolvimento, garanto que meu trabalho será de alta qualidade. Além disso, acredito que a transparência, comunicação e a colaboração são fundamentais para o sucesso de qualquer projeto, mantendo sempre uma comunicação clara e efetiva com todos no processo de desenvolvimento.</p>
+        <p>Sou técnico em informática e estou focado no estudo de análise e desenvolvimento de sistemas, buscando aprimorar minhas habilidades. Atualmente, estou me especializando no desenvolvimento front-end. Tenho como meta colaborar com empresas, utilizando tecnologias inovadoras e metodologias ágeis para ajudá-las a atingir seus objetivos.
+
+        Comprometo-me a oferecer soluções personalizadas e de alta qualidade, utilizando boas práticas de desenvolvimento. Acredito na importância da transparência, comunicação e colaboração para o sucesso de qualquer projeto. Asseguro uma comunicação clara e efetiva, mantendo um ambiente propício à colaboração e produtividade. Estou entusiasmado para aplicar minha expertise e contribuir para o sucesso dos projetos em que estiver envolvido.</p>
     </div>
 </div>
-</div>
+
 </Container>
 </>)
 }

@@ -232,8 +232,9 @@ padding-bottom:40px;
 
 .educacao{  
     display:flex;
-    flex-direction:column;
-    margin:0 35px 0 35px;
+    flex-direction:row;
+    width:100%;
+    margin:auto;
     background-color:rgba(179,179,179,0.4);
     box-shadow: 0px 0px 10px 5px #00d7ff;
         
@@ -250,6 +251,7 @@ padding-bottom:40px;
     
 }
 .escola{       
+    width:100vh;
     margin:auto;
     height:170px;   
     padding:10px;
@@ -269,7 +271,7 @@ h2{
     margin-top:-15px;
 }
 h3{
-    font-size:16px;
+    font-size:14px;
     color:white;    
     
     margin-top:5px;
@@ -279,7 +281,7 @@ h3{
     }
 }
 h4{
-    font-size:16px;
+    font-size:14px;
     margin-top:-10px;
     color: #BFBFBF;
    
@@ -288,14 +290,14 @@ p{
     margin-top:-15px;
     
     color: #BFBFBF;
-    font-weight:bold;
+    
     
 } 
 .cert{
     text-align:center;
 }
     img{
-        width:70px;
+        width:50px;
         top:10px;
     }
 .habilidade{    

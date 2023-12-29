@@ -1,24 +1,43 @@
 import styled from "styled-components"; 
-export const H1 = styled.h1`
-color:#BFBFBF;
-margin-top:100px;
-text-align:center;
-`
+
+
+
+
 export const Container = styled.div`
 
+background-color:rgba(179,179,179,0.1);   
 
-margin-top:10px;
+padding-top:50px;
 padding-bottom:50px;
-margin:0px;
+height:750px;
+width:100%;
+
+@media (min-width: 800px) {
+    height:530px;
+}
 
 h1{
-    margin-top:10px;
+    margin-top:50px;
     color:white;
     text-align:center;
     @media (min-width: 800px) {
         font-size:25px;
     }
     
+}
+
+
+.sobremim{
+    font-size:60px;
+    color: rgba(179,179,179,0.1);
+}
+
+.nome{
+    color: rgb(255,0,0);
+    text-align:center;
+    margin-top:-85px;
+    font-size:22px;
+    font-weight:bold;
 }
 h3{
     color:#BFBFBF;
@@ -30,36 +49,48 @@ h3{
     }
     
 }
-.sobre{
-    display:flex;
-    margin-top:30px; 
-      
+.decoracao1{
+    width:215px;
+    height:215px;
+    background-color:white;
+    border-radius:50%;
     margin:auto;
-    margin:35px; 
-    @media (min-width: 800px) {
-        display: flex;
-        flex-direction:column;
-        text-align:justify;
-        padding:20px;
-        margin:auto;       
-       
-    margin-top:50px;
-
-    }
+    margin-top:-220px;
+    margin-left:35px;
+    background-color:rgba(255,0,0,0.6);
 }
+.decoracao2{
+    width:215px;
+    height:215px;
+    background-color:white;
+    border-radius:50%;
+    margin:auto;
+    margin-top:-220px;
+    margin-left:20px;
+    background-color:rgba(255,0,0,0.4);
+}
+.decoracao3{
+    width:215px;
+    height:215px;
+    background-color:white;
+    border-radius:50%;
+    margin:auto;
+    margin-top:-220px;
+    margin-left:5px;
+    background-color:rgba(255,0,0,0.2);
+}
+
 .emprego{
    
     display:flex;
-    background-color:rgba(179,179,179,0.4);       
-    box-shadow: 0px 0px 10px 5px #00d7ff;
+     
     margin:auto;      
     flex-direction:column;
     
     @media (min-width: 800px) {
         display:flex;
         flex-direction:row;
-        margin-left:118px;    
-        margin-right:118px;
+      
            
         }
     
@@ -80,11 +111,13 @@ h3{
 }
     .texto{        
         color: white; 
-        text-align:justify;      
+        text-align:center;     
+        margin: 20px 30px 0 30px; 
+        font-size:18px;
         
         @media (min-width: 800px) {
-            
-            m
+            text-align:justify; 
+            font-size:22px;
             
         }   
 }
@@ -95,17 +128,10 @@ img{
     margin:auto;
     margin-top:20px;
     
+    
+    
 
     }
-p{
-    color:white;
-    margin:0;
-    text-indent:20%;
-   margin:20px;
-   font-size:20px;
-   @media (min-width: 800px) {
-    font-size:22px;
-   }
-}
+
 
 `

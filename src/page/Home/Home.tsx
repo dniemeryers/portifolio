@@ -1,4 +1,4 @@
-import {Sobre,H1,H2,Formacao,Projetos,Habilidade} from './style';
+import {H1,H2,Formacao,Projetos,Habilidade} from './style';
 
 import Foto from '../../assets/img/perfil-diego.png';
 import Anhanguera from '../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png';
@@ -7,7 +7,9 @@ import Betel from '../../assets/img/logo_betel_2023novo.fw_.png';
 
 import {Inicio} from '../../assets/components/inicio/inicio'
 import {Experiencias} from '../../page/experiencia/Experiencia'
+import {Educacao} from '../../page/educação/Educação'
 import { NavLink } from 'react-router-dom';
+import {Sobre} from '../sobre/Sobre'
 
 import Calc from '../../assets/img/projetos/calc.gif'
 import Org from '../../assets/img/projetos/organizar-os-estudos.gif'
@@ -20,19 +22,9 @@ export function Home() {
     return(<>
         
         <Inicio/>
-        <H1>Sobre</H1>
-        <Sobre id="sobre">             
-                    <div className='info'>
-                        <img src={Foto} width='200px' alt="" />
-                        <h1>Diego Niemeyer</h1>
-                        <h3>Desenvolvedor Front-End</h3>
-                    </div>            
-                    <div className='texto'>            
-                        <p>Olá meu nome é Diego Niemeyer e estou estudando desenvolvimento front-end,<strong> minha meta é ajudar empresas a alcançar seus objetivos através do desenvolvimento tecnológico, fornecendo soluções personalizadas e de alta qualidade para seus problemas.</strong></p>
-                        <p>Por meio do uso de tecnologias inovadoras, metodologias ágeis e boas práticas de desenvolvimento, garanto que meu trabalho será de alta qualidade. Além disso, acredito que a transparência, comunicação e a colaboração são fundamentais para o sucesso de qualquer projeto, mantendo sempre uma comunicação clara e efetiva com todos no processo de desenvolvimento.</p>
-                    </div> 
-        </Sobre>
-        
+        <Sobre/>  
+        <Experiencias/> 
+        <Educacao/>     
         <Habilidade>
         <div className='habilidade'>
                 <h1>Habilidades</h1>
@@ -45,74 +37,8 @@ export function Home() {
                 <img className='skill' src="https://avatars.githubusercontent.com/u/20658825?s=200&v=4" alt="" />
                 </div>
                 </div>
-        </Habilidade>
-        <H2>Projetos</H2>
-        <Projetos>
-        <div className='trabalho'>                        
-            <h4>Organizar Estudos</h4>
-            <div>
-                <img className='imgorg' src={Org}   alt="" />
-            </div>
-            <NavLink to='https://organizar-os-estudos.vercel.app/' target={"_blank"}><h3>&gt; Link do deploy &lt;</h3></NavLink>
-            <NavLink to="https://github.com/dniemeryers/organizar-os-estudos" target={"_blank"}><h3>&gt; Link do repositório &lt;</h3></NavLink>
-            <h4>Tecnologias Utilizadas</h4>
-            <div className='tecnologia'>
-                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg'} alt="React" />
-                <img className='tec' src={'https://avatars.githubusercontent.com/u/20658825?s=200&v=4'} alt="Styled-Component" />
-            </div>                          
-        </div>
-        <div className='trabalho'>                        
-            <h4>Calculadora</h4>
-            <div>
-                <img className='imgcalc' src={Calc} alt="" />
-            </div>
-            <NavLink to='https://dniemeryers.github.io/trilha-react-desafio01-calculadora/' target={"_blank"}><h3>&gt; Link do deploy &lt;</h3></NavLink>
-            <NavLink to="https://github.com/dniemeryers/trilha-react-desafio01-calculadora" target={"_blank"}><h3>&gt; Link do repositório &lt;</h3></NavLink>
-            <h4>Tecnologias Utilizadas</h4>
-            <div className='tecnologia'>
-                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg'} alt="React" />
-                <img className='tec' src={'https://avatars.githubusercontent.com/u/20658825?s=200&v=4'} alt="Styled-Component" />
-            </div>                          
-        </div>
-       
-        <div className='trabalho'>                        
-            <h4>Lista de tarefas</h4>
-            <div>
-                <img className='imgcalc' width='200px' height='170px;' src='https://github.com/dniemeryers/lista-de-tarefa/raw/main/img/pc.gif' alt="" />
-            </div>
-            <NavLink to='https://dniemeryers.github.io/lista-de-tarefa/' target={"_blank"}><h3>&gt; Link do deploy &lt;</h3></NavLink>
-            <NavLink to="https://github.com/dniemeryers/lista-de-tarefa"target={"_blank"}><h3>&gt; Link do repositório &lt;</h3></NavLink>
-            <h4>Tecnologias Utilizadas</h4>
-            <div className='tecnologia'>
-                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg'} alt="HTML" />
-                <img className='tec' src={'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg'} alt="CSS" />
-                <img className='tec' src='https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg' alt='jacascript'/>
-            </div>                          
-        </div>    
-        </Projetos>
-        <Experiencias/>
-        <Formacao>
-            <div className='container'>                
-                    <h1>Formação</h1> 
-                    <div className='educacao'>                                          
-                        <div className='escola'>                        
-                            <img src={Anhanguera} alt="" />
-                            <h3>Anhanguera Educacional</h3>                        
-                            <h4>Análise e Dev. de Sistemas</h4>
-                            <p>Cursando 2º Período 2022 - 2024</p>
-                        </div> 
-                        <div className='escola'>                                                  
-                            <img src={Betel} alt="" />
-                            <h3>Centro Educacional Betel</h3>
-                            <h4>Ensino médio - Téc. em Informática</h4>
-                            <p>Concluído 2004 - 2006</p>
-                        </div>
-                   
-                </div>
-                
-            </div>
-           
-        </Formacao>
+        </Habilidade>       
+        
         
        
 

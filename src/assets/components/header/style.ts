@@ -5,7 +5,7 @@ export const Container = styled.div`
 position:fixed;
 top:0;
 background-color: rgb(24,24,24);
-box-shadow: 0px 0px 10px 5px #00d7ff;
+box-shadow: 0px 0px 10px 5px #FF0000;
 z-index:1;
 color:#BFBFBF;
 justify-content:space-betweem;
@@ -22,7 +22,7 @@ width:100%;
   color: #fff;
   font-size:12px;
   background-color:rgba(179,179,179,0.4);
-  box-shadow: 0px 0px 10px 5px #00d7ff;
+  box-shadow: 0px 0px 10px 5px #FF0000;
 
   &:hover {
     scale:1.2;
@@ -149,7 +149,7 @@ a{
   }
 
 .list{
-    background-color: #5fd3f4;
+    background-color: #FF0000;
     width:40%;
     display:flex;
     justify-content: flex-end;

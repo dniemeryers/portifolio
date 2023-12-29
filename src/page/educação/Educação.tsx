@@ -1,4 +1,5 @@
-import { Container, H1 } from "../educação/style"
+import React, { useState } from 'react';
+import { Container, TabContainer, Tab, Content} from "../educação/style"
 import { Header } from "../../assets/components/header/header"
 import Anhanguera from "../../assets/img/Anhanguera_Educacional_logo-e1589831484851.png"
 import Betel from "../../assets/img/logo_betel_2023novo.fw_.png"
@@ -15,18 +16,24 @@ import CodeCamp from '../../assets/img/code camp.jpeg'
 
 
 export function Educacao(){
+    const [activeTab, setActiveTab] = useState<number>(0);
+
+    const handleTabClick = (tabIndex: number) => {
+        setActiveTab(tabIndex);
+      };
+
 
 
     return(<>
     <Header/>
-    <H1>Formação Acadêmica</H1>
-    <Container>                       
+    <Container>                  
+        <h1>Formação Acadêmica</h1>     
         <div className='educacao'>                   
             <div className='escola'>                        
                 <img src={Anhanguera} alt="" />
-                <h3>Anhanguera Educacional</h3>                        
+                <h3>Anhanguera</h3>                        
                 <h4>CST- Análise e Dev. de Sistemas</h4>
-                <p>Cursando 3º Período 2022 - 2024</p>
+                <p>Cursando 4º Período 2022 - 2024</p>
             </div>
             <div className='escola'>
                 <img src={Betel} alt="" />
@@ -37,19 +44,72 @@ export function Educacao(){
         </div>
         <h1>Cursos e Certificados</h1>
         <div className='certificados'>
-            <div className="curso">          
-                    <img className="certlinha1" src={Scrum} alt="" />               
-                    <img className="certlinha1" src={Type} alt="" />               
-                    <img className="certlinha1" src={Orange} alt="" />               
-                    <img className="certlinha1" src={DioCampus} alt="" />               
-                    <img className="certlinha1" src={ReacType} alt="" />                
-            </div>
-            <div className="curso">
-                    <img className="certlinha2" src={ScrumMaster} alt="" />               
-                    <img className="certlinha2" src={JsWorkover} alt="" />               
-                    <img className="certlinha2" src={Orbi} alt="" />
-                    <img className="certlinha2" src={CodeCamp} alt="" />       
-            </div>        
+        <TabContainer>
+        <Tab className="icnv" active={activeTab === 0} onClick={() => handleTabClick(0)}>
+          1
+        </Tab>
+        <Tab className="icnv" active={activeTab === 1} onClick={() => handleTabClick(1)}>
+          2
+        </Tab>
+        <Tab className="icnv" active={activeTab === 2} onClick={() => handleTabClick(2)}>
+          3
+        </Tab>
+        <Tab className="icnv" active={activeTab === 3} onClick={() => handleTabClick(3)}>
+          4
+        </Tab>
+        <Tab className="icnv" active={activeTab === 4} onClick={() => handleTabClick(4)}>
+          5
+        </Tab>
+        <Tab className="icnv" active={activeTab === 5} onClick={() => handleTabClick(5)}>
+          6
+        </Tab>
+        <Tab className="icnv" active={activeTab === 6} onClick={() => handleTabClick(6)}>
+          7
+        </Tab>
+        <Tab className="icnv" active={activeTab === 7} onClick={() => handleTabClick(7)}>
+          8
+        </Tab>
+        <Tab className="icnv" active={activeTab === 8} onClick={() => handleTabClick(8)}>
+          9
+        </Tab>
+    </TabContainer>
+    <Content active={activeTab === 0}>
+    <img className="certlinha" src={Scrum} alt="" />              
+    
+    </Content>
+    <Content active={activeTab === 1}>
+    <img className="certlinha" src={Type} alt="" /> 
+    
+    </Content>
+    <Content active={activeTab === 2}>
+    <img className="certlinha" src={Orange} alt="" />
+    
+    </Content>
+    <Content active={activeTab === 3}>
+    <img className="certlinha" src={DioCampus} alt="" /> 
+    
+    </Content>
+    <Content active={activeTab === 4}>
+    <img className="certlinha" src={ReacType} alt="" /> 
+    
+    </Content>
+    <Content active={activeTab === 5}>
+    <img className="certlinha" src={ScrumMaster} alt="" />    
+    
+    </Content>
+    <Content active={activeTab === 6}>
+    <img className="certlinha" src={JsWorkover} alt="" />  
+    
+    </Content>
+    <Content active={activeTab === 7}>
+    <img className="certlinha" src={Orbi} alt="" />
+    
+    </Content>
+    <Content active={activeTab === 8}>
+    <img className="certlinha" src={CodeCamp} alt="" />    
+    
+    </Content>
+                
         </div>
             
     </Container>
