@@ -11,7 +11,7 @@ margin-bottom: 70px;
     box-shadow: 0px 0px 10px 5px #FF0000;
     margin:auto;
     padding:0;
-    height:590px;
+    height:600px;
     width:90%;
     
     @media(min-width: 800px){
@@ -175,7 +175,7 @@ export interface TabProps {
  flex-direction:colunm;
  margin:0;
   
- height:553px;
+ height:563px;
   
  background-color:rgba(179,179,179,0.1);
 
