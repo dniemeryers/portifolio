@@ -37,6 +37,7 @@ h2{
     color:white;
     text-align:center;
     margin-bottom:-10px;
+    font-size:22px;
     @media(min-width: 800px){
         text-align:start;
     }
