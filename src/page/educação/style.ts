@@ -100,20 +100,17 @@ img{
 .certificados{
     
    
-    margin:0 15px 0 0px;
-   
+    margin:0 15px 0 0px;   
     display:flex;
     flex-direction:row;
 
-    @media(min-width:800px){
-        width:1100px;
-        margin:auto;
+    @media(min-width:800px){       
         margin-top: 35px;
-        flex-direction:column; 
+        width:100%;
     }
 
     @media(min-width:1024px){
-        width:900px;
+        width:100%;
     }
 }
 .certificados2{
@@ -184,7 +181,9 @@ img{
     box-shadow:0px 0px 10px 5px black;    
     
     @media(min-width:1024px){
-        width:500px;
+        
+        margin:auto;
+        width:600px;
     }
 }
 
@@ -199,12 +198,13 @@ export const TabContainer = styled.div`
     
     
    @media (min-width: 800px) {
-        width:100%;
+        width:30%;
    }
     
   
     .icnv{
      
+     width:100%;   
      margin:6px 15px 0 0 ;
      
      
@@ -219,6 +219,10 @@ export const TabContainer = styled.div`
     font-size:12px;
     font-weight:bolder;
     text-align:center;
+
+    @media (min-width: 800px) {
+        font-size:22px;
+    }
     
    border-radius: ${(props) =>(props.active ? '0 30px 30px 0': 'none')};
     
@@ -238,11 +242,12 @@ export const TabContainer = styled.div`
   
  height:280px;
   
- 
+ width:1000px;
 
  @media (min-width: 800px) {
   width:100%;
   height:410px;
+  
  }
  
   display: ${(props) => (props.active ? 'block' : 'none')};
