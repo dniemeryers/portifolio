@@ -16,7 +16,7 @@ padding-bottom:40px;
 display:flex;
 flex-direction:column;
 margin:auto;
-background-color:rgba(179,179,179,0.1);   
+background-color:rgba(179,179,179,0.1); 
 
 @media(min-width:1024px){
     
@@ -99,11 +99,11 @@ img{
 
 .certificados{
     
-    box-shadow: 0px 0px 10px 5px #ff0000;
-    margin:0 35px 0 35px;
+   
+    margin:0 15px 0 0px;
    
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
 
     @media(min-width:800px){
         width:1100px;
@@ -180,7 +180,7 @@ img{
     display:flex;
     margin:auto;
     margin-top:20px;
-    width:300px;
+    width:250px;
     box-shadow:0px 0px 10px 5px black;    
     
     @media(min-width:1024px){
@@ -194,6 +194,7 @@ export const TabContainer = styled.div`
      
    
     display: flex;
+    flex-direction:column;
     width:100%;
     
     
@@ -203,6 +204,9 @@ export const TabContainer = styled.div`
     
   
     .icnv{
+     
+     margin:6px 15px 0 0 ;
+     
      
       
     }
@@ -216,14 +220,14 @@ export const TabContainer = styled.div`
     font-weight:bolder;
     text-align:center;
     
-   
+   border-radius: ${(props) =>(props.active ? '0 30px 30px 0': 'none')};
     
-    border: ${(props) => (props.active ? 'none':'1px solid white' )};
+    box-shadow: ${(props) => (props.active ?'0px 0px 10px 5px #ff0000':'none')};
    
    
-    padding: 10px;
-    padding-bottom:12px;
-    background-color: ${(props) => (props.active ? 'rgba(179,179,179,0.1)' : ' #FF0000')};
+    padding: 5px;
+    
+    background-color: ${(props) => (props.active ?  ' #3c3c3c':'none')};
     color:${(props) => (props.active ? ' #FF0000' : 'white')};
     cursor: pointer;
   `;
@@ -234,7 +238,7 @@ export const TabContainer = styled.div`
   
  height:280px;
   
- background-color:rgba(179,179,179,0.1);
+ 
 
  @media (min-width: 800px) {
   width:100%;

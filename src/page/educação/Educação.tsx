@@ -46,31 +46,31 @@ export function Educacao(){
         <div className='certificados'>
         <TabContainer>
         <Tab className="icnv" active={activeTab === 0} onClick={() => handleTabClick(0)}>
-          1
+          SCRUM
         </Tab>
         <Tab className="icnv" active={activeTab === 1} onClick={() => handleTabClick(1)}>
-          2
+          TypeScript
         </Tab>
         <Tab className="icnv" active={activeTab === 2} onClick={() => handleTabClick(2)}>
-          3
+          BootCamp Inter
         </Tab>
         <Tab className="icnv" active={activeTab === 3} onClick={() => handleTabClick(3)}>
-          4
+          Dio Campus Expet_
         </Tab>
         <Tab className="icnv" active={activeTab === 4} onClick={() => handleTabClick(4)}>
-          5
+          React com TypeScript
         </Tab>
         <Tab className="icnv" active={activeTab === 5} onClick={() => handleTabClick(5)}>
-          6
+          Scrum Master
         </Tab>
         <Tab className="icnv" active={activeTab === 6} onClick={() => handleTabClick(6)}>
-          7
+          JavaScript
         </Tab>
         <Tab className="icnv" active={activeTab === 7} onClick={() => handleTabClick(7)}>
-          8
+          BootCamp Órbi
         </Tab>
         <Tab className="icnv" active={activeTab === 8} onClick={() => handleTabClick(8)}>
-          9
+          CodeCamp
         </Tab>
     </TabContainer>
     <Content active={activeTab === 0}>
