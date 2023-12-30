@@ -58,7 +58,7 @@ export function Educacao(){
           Dio Campus Expet_
         </Tab>
         <Tab className="icnv" active={activeTab === 4} onClick={() => handleTabClick(4)}>
-          React com TypeScript
+          React + TypeScript
         </Tab>
         <Tab className="icnv" active={activeTab === 5} onClick={() => handleTabClick(5)}>
           Scrum Master
