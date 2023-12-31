@@ -1,6 +1,6 @@
 import {Container1, Container2,H1} from './style'
 import { NavLink } from 'react-router-dom'
-import { Header } from "../../assets/components/header/header"
+import { Header } from "../../components/header/header"
 import Calc from "../../assets/img/projetos/calc.gif"
 import Org from "../../assets/img/projetos/organizar-os-estudos.gif"
 
