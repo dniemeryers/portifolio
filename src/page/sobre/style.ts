@@ -26,6 +26,10 @@ h1{
     
 }
 
+p{
+    font-size:18px;
+}
+
 
 .sobremim{
     font-size:60px;

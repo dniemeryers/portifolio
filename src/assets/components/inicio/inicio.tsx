@@ -2,9 +2,8 @@ import {Container, Social} from './style';
 import { SocialIcon } from "react-social-icons";
 import Foto from '../../img/perfildiego2.png';
 import PDF from '../../img/pdf.png'
-import {Header} from '../header/header'
 
-import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import { Cursor } from 'react-simple-typewriter'
 import { motion } from "framer-motion";
 
 import { NavLink } from 'react-router-dom';
@@ -26,27 +25,27 @@ return(
                     <div className='helo'>
                     <div className='bolahelo'></div><p id='helo'>Olá</p>
                     </div>
-                    <h2>Eu sou <h2 className='nome'>Diego</h2> Niemeyer</h2>
+                    <h2>Eu sou <p className='nome'>Diego</p> Niemeyer</h2>
                 <h1>Desenvolvedor Web<Cursor cursorColor='#FF0000' /></h1>
                             
                 <Social>
         <SocialIcon className='social-icon' url="https://www.linkedin.com/in/diego-niemeyer/"
-            style={{width: 30, height: 30}}
+            style={{width: 50, height: 50}}
             fgColor='#FF0000'
             bgColor='transparent'
             target={"_blank"}/>
         <SocialIcon url="https://github.com/dniemeryers"
-        style={{width: 30, height: 30}}
+        style={{width: 50, height: 50}}
             fgColor='#FF0000'
             bgColor='transparent'
             target={"_blank"}/>
         <SocialIcon url="mailto:dniemeyers@gmail.com"
-        style={{width: 30, height: 30}}
+         style={{width: 50, height: 50}}
             fgColor='#FF0000'
             bgColor='transparent'
             target={"_blank"}/>    
         <SocialIcon url="https://api.whatsapp.com/send?phone=5521974112744"
-        style={{width: 30, height: 30}}
+        style={{width: 50, height: 50}}
             fgColor='#FF0000'
             bgColor='transparent'
             target={"_blank"}/>    

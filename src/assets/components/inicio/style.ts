@@ -8,6 +8,7 @@ export const Social = styled.div`
 
     display:flex;
     flex-direction: row;
+    margin-left:-5px;
    
    
     .social-icon{
