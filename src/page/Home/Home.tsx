@@ -1,9 +1,9 @@
 import {Habilidade} from './style';
 
 import {Inicio} from '../../assets/components/inicio/inicio'
-import {Experiencias} from '../../page/experiencia/Experiencia'
-import {Educacao} from '../../page/educação/Educação'
-import {Sobre} from '../sobre/Sobre'
+import {Experiencias1} from '../../assets/components/experiencia/Experiencia'
+import {Educacao1} from '../../assets/components/educação/Educação'
+import {Sobre} from '../../assets/components/sobre/Sobre'
 
 
 export function Home() {
@@ -12,8 +12,8 @@ export function Home() {
 return( <>        
             <Inicio/>
             <Sobre/>  
-            <Experiencias/> 
-            <Educacao/>     
+            <Experiencias1/> 
+            <Educacao1/>     
             <Habilidade>
                 <div className='habilidade'>
                     <h1>Habilidades</h1>

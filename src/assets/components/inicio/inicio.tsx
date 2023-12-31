@@ -3,6 +3,8 @@ import { SocialIcon } from "react-social-icons";
 import Foto from '../../img/perfildiego2.png';
 import PDF from '../../img/pdf.png'
 
+import { Header } from '../header/header';
+
 import { Cursor } from 'react-simple-typewriter'
 import { motion } from "framer-motion";
 
@@ -15,7 +17,8 @@ export function Inicio() {
     
    
 return(
-    <>      
+    <>  
+    <Header/>  
     <Container>            
         <div className='bio'>
             <div className="imgs">                    
