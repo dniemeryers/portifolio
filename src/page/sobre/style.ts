@@ -27,7 +27,7 @@ h1{
 }
 
 p{
-    font-size:18px;
+    font-size:16px;
 }
 
 
