@@ -36,6 +36,7 @@ heigth:100%vh;
 margin-top:90px;
 margin-bottom:160px;
 
+
 @media (min-width: 800px) {
     margin-botton:50px;
 }

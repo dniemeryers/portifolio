@@ -39,14 +39,14 @@ export function Header() {
              }}>
         <h1>Diego Niemeyer</h1>
         </motion.div>
-        <div className="menu">
+       {/*} <div className="menu">
           <input type="checkbox" id="checkbox-menu"  checked={isMenuOpen} onChange={handleMenuClick} />
           <label style={{zIndex: '1'}} htmlFor="checkbox-menu">
             <span></span>
             <span></span>
             <span></span>
           </label>
-        </div>
+            </div>*/}
         <div className='links-desktop'>
           <NavLink className={'navlink'} to="/home">Home</NavLink>
           <NavLink className={'navlink'} to="/sobre">Sobre</NavLink>
@@ -58,7 +58,7 @@ export function Header() {
         </div>
       </div>
     </Container>
-    <Container2>
+    {/*<Container2>
       <motion.div 
              initial={{
                 y: -4500,
@@ -115,7 +115,7 @@ export function Header() {
         </Social>               
       </div>
       </motion.div>   
-    </Container2>
+    </Container2>*/}
   </>);
 }
  

@@ -190,6 +190,8 @@ a{
   height:550px;
   width:95%;  
   margin-top:-500px;
+  z-index:10000;
+  
   
   display:flex;
   flex-direction:colunm;
