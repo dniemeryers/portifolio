@@ -47,7 +47,7 @@ export function Header() {
             <span></span>
           </label>
             </div>*/}
-        <div className='links-desktop'>
+       {/* <div className='links-desktop'>
           <NavLink className={'navlink'} to="/home">Home</NavLink>
           <NavLink className={'navlink'} to="/sobre">Sobre</NavLink>
           <NavLink className={'navlink'} to="/educacao">Formação</NavLink>
@@ -55,7 +55,7 @@ export function Header() {
           <NavLink className={'navlink'} to="/experiencia">Experiências</NavLink>
           
           <NavLink to="https://drive.google.com/file/d/1iOKMBp0xvfcxqOO-K60MVmyALkey42tJ/view?usp=share_link" target={"_blank"}><div className="button" ><p className='curriculo'>CURRICULO</p><img className="perfil" src={PDF} width="20px" height='20px;' alt="" /></div></NavLink>
-        </div>
+        </div>*/}
       </div>
     </Container>
     {/*<Container2>
